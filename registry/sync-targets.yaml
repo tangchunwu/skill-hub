@@ -1,0 +1,20 @@
+version: 1
+
+targets:
+  - id: codex-local
+    type: filesystem
+    root: ~/.codex/skills
+    export_mode: link-or-copy
+    enabled: true
+
+  - id: claude-local
+    type: filesystem
+    root: ~/.claude/skills
+    export_mode: link-or-copy
+    enabled: true
+
+  - id: web-runtime
+    type: app-assets
+    root: exports/web
+    export_mode: build
+    enabled: false

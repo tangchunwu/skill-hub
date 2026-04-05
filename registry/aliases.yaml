@@ -1,0 +1,50 @@
+version: 1
+
+aliases:
+  - alias: 做 PRD
+    target: create-prd
+
+  - alias: prd-generator
+    target: create-prd
+
+  - alias: 帮我写 PRD
+    target: create-prd
+
+  - alias: 做竞品分析
+    target: competitor-analysis
+
+  - alias: competitive-profile-builder
+    target: competitor-analysis
+
+  - alias: 深度研究
+    target: tavily-research
+
+  - alias: 整理访谈
+    target: summarize-interview
+
+  - alias: user-interview-synthesis
+    target: summarize-interview
+
+  - alias: 写 OKR
+    target: okr-coach
+
+  - alias: 写汇报
+    target: executive-update-generator
+
+  - alias: exec-update-generator
+    target: executive-update-generator
+
+  - alias: 做优先级
+    target: prioritization-frameworks
+
+  - alias: 做 GTM
+    target: go-to-market-strategy
+
+  - alias: 看实验结果
+    target: ab-test-analysis
+
+  - alias: 画用户旅程
+    target: customer-journey-map
+
+  - alias: 战略升维
+    target: altitude-horizon-framework

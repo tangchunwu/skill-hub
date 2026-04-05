@@ -1,0 +1,261 @@
+version: 1
+
+skills:
+  - id: create-prd
+    canonical_name: create-prd
+    display_name: Create PRD
+    category: product
+    type: upstream
+    source:
+      provider: github
+      owner: phuryn
+      repo: pm-skills
+      path: pm-execution/skills/create-prd
+      ref: main
+    local:
+      path: skills/upstream/phuryn/create-prd
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - prd
+      - requirements
+      - product
+    update_policy: manual
+    status: active
+
+  - id: competitor-analysis
+    canonical_name: competitor-analysis
+    display_name: Competitor Analysis
+    category: research
+    type: upstream
+    source:
+      provider: github
+      owner: phuryn
+      repo: pm-skills
+      path: pm-market-research/skills/competitor-analysis
+      ref: main
+    local:
+      path: skills/upstream/phuryn/competitor-analysis
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - competitor
+      - market-research
+    update_policy: manual
+    status: active
+
+  - id: tavily-research
+    canonical_name: tavily-research
+    display_name: Tavily Research
+    category: research
+    type: upstream
+    source:
+      provider: github
+      owner: tavily-ai
+      repo: skills
+      path: skills/tavily-research
+      ref: main
+    local:
+      path: skills/upstream/tavily/tavily-research
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - research
+      - search
+      - web
+    update_policy: manual
+    status: active
+
+  - id: summarize-interview
+    canonical_name: summarize-interview
+    display_name: Summarize Interview
+    category: research
+    type: upstream
+    source:
+      provider: github
+      owner: phuryn
+      repo: pm-skills
+      path: pm-product-discovery/skills/summarize-interview
+      ref: main
+    local:
+      path: skills/upstream/phuryn/summarize-interview
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - interview
+      - synthesis
+      - research
+    update_policy: manual
+    status: active
+
+  - id: okr-coach
+    canonical_name: okr-coach
+    display_name: OKR Coach
+    category: strategy
+    type: upstream
+    source:
+      provider: direct-download
+      owner: mysecond
+      repo: skills
+      url: https://www.mysecond.ai/api/skills/okr-coach/download
+    local:
+      path: skills/upstream/mysecond/okr-coach
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - okr
+      - planning
+      - strategy
+    update_policy: manual
+    status: active
+
+  - id: executive-update-generator
+    canonical_name: executive-update-generator
+    display_name: Executive Update Generator
+    category: management
+    type: upstream
+    source:
+      provider: direct-download
+      owner: mysecond
+      repo: skills
+      url: https://www.mysecond.ai/api/skills/executive-update-generator/download
+    local:
+      path: skills/upstream/mysecond/executive-update-generator
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - executive-update
+      - reporting
+      - scqa
+    update_policy: manual
+    status: active
+
+  - id: prioritization-frameworks
+    canonical_name: prioritization-frameworks
+    display_name: Prioritization Frameworks
+    category: product
+    type: upstream
+    source:
+      provider: github
+      owner: phuryn
+      repo: pm-skills
+      path: pm-execution/skills/prioritization-frameworks
+      ref: main
+    local:
+      path: skills/upstream/phuryn/prioritization-frameworks
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - prioritization
+      - planning
+    update_policy: manual
+    status: active
+
+  - id: go-to-market-strategy
+    canonical_name: go-to-market-strategy
+    display_name: Go To Market Strategy
+    category: growth
+    type: upstream
+    source:
+      provider: direct-download
+      owner: mysecond
+      repo: skills
+      url: https://www.mysecond.ai/api/skills/go-to-market-strategy/download
+    local:
+      path: skills/upstream/mysecond/go-to-market-strategy
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - gtm
+      - launch
+      - growth
+    update_policy: manual
+    status: active
+
+  - id: ab-test-analysis
+    canonical_name: ab-test-analysis
+    display_name: AB Test Analysis
+    category: growth
+    type: upstream
+    source:
+      provider: github
+      owner: phuryn
+      repo: pm-skills
+      path: pm-data-analytics/skills/ab-test-analysis
+      ref: main
+    local:
+      path: skills/upstream/phuryn/ab-test-analysis
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - experiments
+      - analytics
+      - ab-test
+    update_policy: manual
+    status: active
+
+  - id: customer-journey-map
+    canonical_name: customer-journey-map
+    display_name: Customer Journey Map
+    category: product
+    type: upstream
+    source:
+      provider: github
+      owner: phuryn
+      repo: pm-skills
+      path: pm-market-research/skills/customer-journey-map
+      ref: main
+    local:
+      path: skills/upstream/phuryn/customer-journey-map
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - journey
+      - ux
+      - research
+    update_policy: manual
+    status: active
+
+  - id: altitude-horizon-framework
+    canonical_name: altitude-horizon-framework
+    display_name: Altitude Horizon Framework
+    category: strategy
+    type: upstream
+    source:
+      provider: github
+      owner: deanpeters
+      repo: Product-Manager-Skills
+      path: skills/altitude-horizon-framework
+      ref: main
+    local:
+      path: skills/upstream/deanpeters/altitude-horizon-framework
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - strategy
+      - altitude
+      - horizon
+    update_policy: manual
+    status: active
