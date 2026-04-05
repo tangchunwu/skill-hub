@@ -9,6 +9,7 @@ from common import (
     backup_dir,
     ensure_dir,
     find_target,
+    load_targets,
     iter_exported_skills,
     print_line,
     safe_symlink,
@@ -36,6 +37,28 @@ def sync_skill(skill: dict, target_root: Path, mode: str, force: bool, backup_ro
     return skill["id"], "synced"
 
 
+def sync_target(target: dict, mode_override: str | None, force: bool, selected_skills: list[str] | None) -> None:
+    root = expand_path(target["root"])
+    ensure_dir(root)
+    mode = mode_override or ("symlink" if target.get("export_mode") == "link-or-copy" else "copy")
+    backup_root = root / ".skill-hub-backups" / timestamp()
+    skills = iter_exported_skills()
+    if selected_skills:
+        selected = set(selected_skills)
+        skills = [item for item in skills if item["id"] in selected or item["canonical_name"] in selected]
+
+    if not skills:
+        print_line(f"[{target['id']}] No skills selected.")
+        return
+
+    print_line(f"Sync target: {target['id']}")
+    print_line(f"Export root: {root}")
+    print_line(f"Mode: {mode}")
+    for skill in skills:
+        skill_id, status = sync_skill(skill, root, mode, force, backup_root)
+        print_line(f"- {skill_id}: {status}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Export skills from skill-hub to target runtime.")
     parser.add_argument("--target", required=True, help="Target id from registry/sync-targets.yaml")
@@ -45,28 +68,19 @@ def main() -> None:
     args = parser.parse_args()
 
     try:
-        target = find_target(args.target)
-        if not target.get("enabled", False):
-            raise SkillHubError(f"Target is disabled: {args.target}")
-        root = expand_path(target["root"])
-        ensure_dir(root)
-        mode = args.mode or ("symlink" if target.get("export_mode") == "link-or-copy" else "copy")
-        backup_root = root / ".skill-hub-backups" / timestamp()
-        skills = iter_exported_skills()
-        if args.skill:
-            selected = set(args.skill)
-            skills = [item for item in skills if item["id"] in selected or item["canonical_name"] in selected]
-
-        if not skills:
-            print_line("No skills selected.")
-            return
-
-        print_line(f"Sync target: {args.target}")
-        print_line(f"Export root: {root}")
-        print_line(f"Mode: {mode}")
-        for skill in skills:
-            skill_id, status = sync_skill(skill, root, mode, args.force, backup_root)
-            print_line(f"- {skill_id}: {status}")
+        if args.target == "all":
+            targets = [item for item in load_targets() if item.get("enabled", False)]
+            if not targets:
+                raise SkillHubError("No enabled targets found.")
+            for index, target in enumerate(targets):
+                if index > 0:
+                    print_line("")
+                sync_target(target, args.mode, args.force, args.skill)
+        else:
+            target = find_target(args.target)
+            if not target.get("enabled", False):
+                raise SkillHubError(f"Target is disabled: {args.target}")
+            sync_target(target, args.mode, args.force, args.skill)
     except SkillHubError as exc:
         raise SystemExit(f"ERROR: {exc}") from exc
 

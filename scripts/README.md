@@ -21,9 +21,16 @@
 ```bash
 python3 scripts/update_upstream_skills.py --all
 python3 scripts/sync_skills.py --target codex-local --mode symlink --force
+python3 scripts/sync_skills.py --target all --mode symlink --force
 python3 scripts/sync_repo.py commit --message "Update upstream skills" --push
 python3 scripts/sync_repo.py rollback --to <commit> --push
 ```
+
+## 关于 `--target all`
+
+- `--target all` 会遍历 `registry/sync-targets.yaml` 中所有 `enabled: true` 的目标
+- 适合在同一次修改后同时同步到 Codex 和 Claude
+- 如果某个 skill 在某个目标已存在且未加 `--force`，会显示 `skip_exists`
 
 ## 回退策略
 
