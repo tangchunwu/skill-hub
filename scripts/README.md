@@ -16,12 +16,19 @@
   - 统一执行仓库状态查看、提交推送和回退
   - 回退采用“生成新的 rollback commit”，不直接改写历史
 
+- `ingest_local_changes.py`
+  - 将工具目录中的本地 skill 改动回收到 `skill-hub`
+  - 支持从 `codex-local`、`claude-local` 或 `all` 回收
+  - 覆盖 `skill-hub` 前自动备份原目录
+
 ## 推荐用法
 
 ```bash
 python3 scripts/update_upstream_skills.py --all
 python3 scripts/sync_skills.py --target codex-local --mode symlink --force
 python3 scripts/sync_skills.py --target all --mode symlink --force
+python3 scripts/ingest_local_changes.py --target codex-local --dry-run
+python3 scripts/ingest_local_changes.py --target all
 python3 scripts/sync_repo.py commit --message "Update upstream skills" --push
 python3 scripts/sync_repo.py rollback --to <commit> --push
 ```
@@ -35,4 +42,5 @@ python3 scripts/sync_repo.py rollback --to <commit> --push
 ## 回退策略
 
 - skill 目录级回退：由 `sync_skills.py` 和 `update_upstream_skills.py` 在覆盖前创建备份
+- 回收覆盖回退：由 `ingest_local_changes.py` 在覆盖 `skill-hub` 前创建备份
 - 仓库级回退：由 `sync_repo.py rollback` 生成新的回退提交
