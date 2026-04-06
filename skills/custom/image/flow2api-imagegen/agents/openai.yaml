@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flow2API ImageGen"
+  short_description: "Generate images with your Flow2API models"
+  default_prompt: "Use $flow2api-imagegen to generate an image with the configured Flow2API endpoint and save it to a local file."

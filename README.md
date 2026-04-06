@@ -37,6 +37,17 @@
 - `ab-test-analysis`
 - `altitude-horizon-framework`
 
+### Custom / Ops / Content
+
+- `flow2api-imagegen`
+- `minecontext-sync-soul-mirror`
+- `openclaw-blinko-writer`
+- `openclaw-content-ops`
+- `openclaw-image-bed-uploader`
+- `openclaw-personal-blog-publisher`
+- `qclaw-asar-hotfix`
+- `ssh-skill`
+
 ## 目录结构
 
 ```text

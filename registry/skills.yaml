@@ -259,3 +259,181 @@ skills:
       - horizon
     update_policy: manual
     status: active
+
+  - id: flow2api-imagegen
+    canonical_name: flow2api-imagegen
+    display_name: Flow2API Image Generation
+    category: image
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/image/flow2api-imagegen
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - image
+      - poster
+      - local-model
+    update_policy: git
+    status: active
+
+  - id: minecontext-sync-soul-mirror
+    canonical_name: minecontext-sync-soul-mirror
+    display_name: MineContext Sync Soul Mirror
+    category: data
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/data/minecontext-sync-soul-mirror
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - sync
+      - sqlite
+      - supabase
+    update_policy: git
+    status: active
+
+  - id: openclaw-blinko-writer
+    canonical_name: openclaw-blinko-writer
+    display_name: OpenClaw Blinko Writer
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/openclaw-blinko-writer
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - blinko
+      - note
+      - todo
+    update_policy: git
+    status: active
+
+  - id: openclaw-content-ops
+    canonical_name: openclaw-content-ops
+    display_name: OpenClaw Content Ops
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/openclaw-content-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+      - blog
+      - blinko
+      - image-bed
+    update_policy: git
+    status: active
+
+  - id: openclaw-image-bed-uploader
+    canonical_name: openclaw-image-bed-uploader
+    display_name: OpenClaw Image Bed Uploader
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/openclaw-image-bed-uploader
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - image-bed
+      - upload
+      - content
+    update_policy: git
+    status: active
+
+  - id: openclaw-personal-blog-publisher
+    canonical_name: openclaw-personal-blog-publisher
+    display_name: OpenClaw Personal Blog Publisher
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/openclaw-personal-blog-publisher
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - blog
+      - publish
+      - content
+    update_policy: git
+    status: active
+
+  - id: qclaw-asar-hotfix
+    canonical_name: qclaw-asar-hotfix
+    display_name: QClaw Asar Hotfix
+    category: app
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/app/qclaw-asar-hotfix
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - qclaw
+      - patch
+      - asar
+    update_policy: git
+    status: active
+
+  - id: ssh-skill
+    canonical_name: ssh-skill
+    display_name: SSH Skill
+    category: infra
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/infra/ssh-skill
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ssh
+      - remote
+      - infra
+      - deploy
+    update_policy: git
+    status: active

@@ -48,3 +48,30 @@ aliases:
 
   - alias: 战略升维
     target: altitude-horizon-framework
+
+  - alias: 生图
+    target: flow2api-imagegen
+
+  - alias: Flow2API 生图
+    target: flow2api-imagegen
+
+  - alias: MineContext 同步
+    target: minecontext-sync-soul-mirror
+
+  - alias: 发到 Blinko
+    target: openclaw-blinko-writer
+
+  - alias: 内容分发
+    target: openclaw-content-ops
+
+  - alias: 上传图床
+    target: openclaw-image-bed-uploader
+
+  - alias: 发布博客
+    target: openclaw-personal-blog-publisher
+
+  - alias: QClaw 热修复
+    target: qclaw-asar-hotfix
+
+  - alias: SSH
+    target: ssh-skill

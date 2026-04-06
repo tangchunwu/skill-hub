@@ -1,0 +1,4 @@
+interface:
+  display_name: "MineContext Sync"
+  short_description: "Sync MineContext into Soul Mirror"
+  default_prompt: "Use $minecontext-sync-soul-mirror to sync MineContext into Soul Mirror."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "QClaw Asar Hotfix"
+  short_description: "Patch old QClaw packaged app front-end"
+  default_prompt: "Use $qclaw-asar-hotfix to patch an older QClaw.app asar: DEV_MODE-gated invite checks only on localhost and show other/system-config in model provider selector."
