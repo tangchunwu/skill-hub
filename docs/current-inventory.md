@@ -26,6 +26,11 @@
 - `openclaw-personal-blog-publisher`
 - `qclaw-asar-hotfix`
 - `ssh-skill`
+- `skills-updater`
+- `自更新`
+- `skill-manager`
+- `sync-minecontext`
+- `openclaw-cloudpc-bridge`
 
 ## 尚未纳管
 

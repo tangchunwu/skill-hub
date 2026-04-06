@@ -437,3 +437,113 @@ skills:
       - deploy
     update_policy: git
     status: active
+
+  - id: skills-updater
+    canonical_name: skills-updater
+    display_name: Skills Updater
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/skills-updater
+      exported: true
+    tools:
+      - claude
+      - codex
+    tags:
+      - skills
+      - updater
+      - marketplace
+    update_policy: git
+    status: active
+
+  - id: 自更新
+    canonical_name: 自更新
+    display_name: 自更新
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/自更新
+      exported: true
+    tools:
+      - claude
+      - codex
+    tags:
+      - feedback
+      - refine
+      - update
+    update_policy: git
+    status: active
+
+  - id: skill-manager
+    canonical_name: skill-manager
+    display_name: Skill Manager
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/skill-manager
+      exported: true
+    tools:
+      - claude
+    tags:
+      - skills
+      - install
+      - search
+    update_policy: git
+    status: active
+
+  - id: sync-minecontext
+    canonical_name: sync-minecontext
+    display_name: Sync MineContext
+    category: data
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/data/sync-minecontext
+      exported: true
+    tools:
+      - claude
+      - codex
+    tags:
+      - minecontext
+      - obsidian
+      - sync
+    update_policy: git
+    status: active
+
+  - id: openclaw-cloudpc-bridge
+    canonical_name: openclaw-cloudpc-bridge
+    display_name: OpenClaw CloudPC Bridge
+    category: infra
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/infra/openclaw-cloudpc-bridge
+      exported: true
+    tools:
+      - claude
+      - codex
+    tags:
+      - openclaw
+      - cloudpc
+      - bridge
+      - reverse-ssh
+    update_policy: git
+    status: active

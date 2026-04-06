@@ -75,3 +75,18 @@ aliases:
 
   - alias: SSH
     target: ssh-skill
+
+  - alias: 更新 skills
+    target: skills-updater
+
+  - alias: 自更新
+    target: 自更新
+
+  - alias: 管理 skill
+    target: skill-manager
+
+  - alias: 同步 MineContext
+    target: sync-minecontext
+
+  - alias: CloudPC Bridge
+    target: openclaw-cloudpc-bridge

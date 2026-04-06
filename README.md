@@ -48,6 +48,14 @@
 - `qclaw-asar-hotfix`
 - `ssh-skill`
 
+### Custom / Management
+
+- `skills-updater`
+- `自更新`
+- `skill-manager`
+- `sync-minecontext`
+- `openclaw-cloudpc-bridge`
+
 ## 目录结构
 
 ```text
