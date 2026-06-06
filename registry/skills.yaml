@@ -4351,3 +4351,983 @@ skills:
       - business-ops
     update_policy: git
     status: active
+
+  - id: android-clean-architecture
+    canonical_name: android-clean-architecture
+    display_name: Android Clean Architecture
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/android-clean-architecture
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: api-connector-builder
+    canonical_name: api-connector-builder
+    display_name: Api Connector Builder
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/api-connector-builder
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: clickhouse-io
+    canonical_name: clickhouse-io
+    display_name: Clickhouse Io
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/clickhouse-io
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: coding-standards
+    canonical_name: coding-standards
+    display_name: Coding Standards
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/coding-standards
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: compose-multiplatform-patterns
+    canonical_name: compose-multiplatform-patterns
+    display_name: Compose Multiplatform Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/compose-multiplatform-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: cpp-coding-standards
+    canonical_name: cpp-coding-standards
+    display_name: Cpp Coding Standards
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/cpp-coding-standards
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: cpp-testing
+    canonical_name: cpp-testing
+    display_name: Cpp Testing
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/cpp-testing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: csharp-testing
+    canonical_name: csharp-testing
+    display_name: Csharp Testing
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/csharp-testing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: dart-flutter-patterns
+    canonical_name: dart-flutter-patterns
+    display_name: Dart Flutter Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/dart-flutter-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: database-migrations
+    canonical_name: database-migrations
+    display_name: Database Migrations
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/database-migrations
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: django-patterns
+    canonical_name: django-patterns
+    display_name: Django Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/django-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: django-security
+    canonical_name: django-security
+    display_name: Django Security
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/django-security
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: django-verification
+    canonical_name: django-verification
+    display_name: Django Verification
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/django-verification
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: dotnet-patterns
+    canonical_name: dotnet-patterns
+    display_name: Dotnet Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/dotnet-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: e2e-testing
+    canonical_name: e2e-testing
+    display_name: E2e Testing
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/e2e-testing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: frontend-design
+    canonical_name: frontend-design
+    display_name: Frontend Design
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/frontend-design
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: frontend-patterns
+    canonical_name: frontend-patterns
+    display_name: Frontend Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/frontend-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: golang-patterns
+    canonical_name: golang-patterns
+    display_name: Golang Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/golang-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: golang-testing
+    canonical_name: golang-testing
+    display_name: Golang Testing
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/golang-testing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: java-coding-standards
+    canonical_name: java-coding-standards
+    display_name: Java Coding Standards
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/java-coding-standards
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: jpa-patterns
+    canonical_name: jpa-patterns
+    display_name: Jpa Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/jpa-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: kotlin-coroutines-flows
+    canonical_name: kotlin-coroutines-flows
+    display_name: Kotlin Coroutines Flows
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/kotlin-coroutines-flows
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: kotlin-exposed-patterns
+    canonical_name: kotlin-exposed-patterns
+    display_name: Kotlin Exposed Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/kotlin-exposed-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: kotlin-patterns
+    canonical_name: kotlin-patterns
+    display_name: Kotlin Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/kotlin-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: kotlin-testing
+    canonical_name: kotlin-testing
+    display_name: Kotlin Testing
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/kotlin-testing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: laravel-patterns
+    canonical_name: laravel-patterns
+    display_name: Laravel Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/laravel-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: laravel-plugin-discovery
+    canonical_name: laravel-plugin-discovery
+    display_name: Laravel Plugin Discovery
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/laravel-plugin-discovery
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: laravel-tdd
+    canonical_name: laravel-tdd
+    display_name: Laravel Tdd
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/laravel-tdd
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: laravel-verification
+    canonical_name: laravel-verification
+    display_name: Laravel Verification
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/laravel-verification
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: mcp-server-patterns
+    canonical_name: mcp-server-patterns
+    display_name: Mcp Server Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/mcp-server-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: nestjs-patterns
+    canonical_name: nestjs-patterns
+    display_name: Nestjs Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/nestjs-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: nodejs-keccak256
+    canonical_name: nodejs-keccak256
+    display_name: Nodejs Keccak256
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/nodejs-keccak256
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: perl-patterns
+    canonical_name: perl-patterns
+    display_name: Perl Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/perl-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: perl-security
+    canonical_name: perl-security
+    display_name: Perl Security
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/perl-security
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: perl-testing
+    canonical_name: perl-testing
+    display_name: Perl Testing
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/perl-testing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: postgres-patterns
+    canonical_name: postgres-patterns
+    display_name: Postgres Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/postgres-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: python-patterns
+    canonical_name: python-patterns
+    display_name: Python Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/python-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: rust-patterns
+    canonical_name: rust-patterns
+    display_name: Rust Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/rust-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: rust-testing
+    canonical_name: rust-testing
+    display_name: Rust Testing
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/rust-testing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: security-scan
+    canonical_name: security-scan
+    display_name: Security Scan
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/security-scan
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: springboot-patterns
+    canonical_name: springboot-patterns
+    display_name: Springboot Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/springboot-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: springboot-tdd
+    canonical_name: springboot-tdd
+    display_name: Springboot Tdd
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/springboot-tdd
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: springboot-verification
+    canonical_name: springboot-verification
+    display_name: Springboot Verification
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/springboot-verification
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: swift-actor-persistence
+    canonical_name: swift-actor-persistence
+    display_name: Swift Actor Persistence
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/swift-actor-persistence
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: swift-concurrency-6-2
+    canonical_name: swift-concurrency-6-2
+    display_name: Swift Concurrency 6 2
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/swift-concurrency-6-2
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: swift-protocol-di-testing
+    canonical_name: swift-protocol-di-testing
+    display_name: Swift Protocol Di Testing
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/swift-protocol-di-testing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: swiftui-patterns
+    canonical_name: swiftui-patterns
+    display_name: Swiftui Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/swiftui-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: tdd-workflow
+    canonical_name: tdd-workflow
+    display_name: Tdd Workflow
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/tdd-workflow
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: verification-loop
+    canonical_name: verification-loop
+    display_name: Verification Loop
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/verification-loop
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active

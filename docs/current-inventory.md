@@ -232,6 +232,71 @@
 - `terminal-ops`
 - `unified-notifications-ops`
 
+## Custom / Engineering
+
+- `android-clean-architecture`
+- `api-connector-builder`
+- `clickhouse-io`
+- `coding-standards`
+- `compose-multiplatform-patterns`
+- `cpp-coding-standards`
+- `cpp-testing`
+- `csharp-testing`
+- `dart-flutter-patterns`
+- `database-migrations`
+- `django-patterns`
+- `django-security`
+- `django-verification`
+- `dotnet-patterns`
+- `e2e-testing`
+- `frontend-design`
+- `frontend-patterns`
+- `golang-patterns`
+- `golang-testing`
+- `java-coding-standards`
+- `jpa-patterns`
+- `kotlin-coroutines-flows`
+- `kotlin-exposed-patterns`
+- `kotlin-patterns`
+- `kotlin-testing`
+- `laravel-patterns`
+- `laravel-plugin-discovery`
+- `laravel-tdd`
+- `laravel-verification`
+- `mcp-server-patterns`
+- `nestjs-patterns`
+- `nodejs-keccak256`
+- `perl-patterns`
+- `perl-security`
+- `perl-testing`
+- `postgres-patterns`
+- `python-patterns`
+- `rust-patterns`
+- `rust-testing`
+- `security-scan`
+- `springboot-patterns`
+- `springboot-tdd`
+- `springboot-verification`
+- `swift-actor-persistence`
+- `swift-concurrency-6-2`
+- `swift-protocol-di-testing`
+- `swiftui-patterns`
+- `tdd-workflow`
+- `verification-loop`
+
+## 待脱敏后纳管
+
+- `api-design`
+- `backend-patterns`
+- `deployment-patterns`
+- `django-tdd`
+- `docker-patterns`
+- `kotlin-ktor-patterns`
+- `laravel-security`
+- `python-testing`
+- `springboot-security`
+- `source-command-kotlin-test`
+
 ## Custom / SecondMe
 
 - `secondme`
