@@ -210,6 +210,28 @@
 
 - `baoyu-danger-x-to-markdown`
 
+## Custom / Business Ops
+
+- `automation-audit-ops`
+- `autonomous-loops`
+- `customer-billing-ops`
+- `dmux-workflows`
+- `email-ops`
+- `enterprise-agent-ops`
+- `finance-billing-ops`
+- `github-ops`
+- `google-workspace-ops`
+- `inventory-demand-planning`
+- `jira-integration`
+- `knowledge-ops`
+- `logistics-exception-management`
+- `messages-ops`
+- `project-flow-ops`
+- `research-ops`
+- `returns-reverse-logistics`
+- `terminal-ops`
+- `unified-notifications-ops`
+
 ## Custom / SecondMe
 
 - `secondme`

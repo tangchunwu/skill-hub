@@ -3971,3 +3971,383 @@ skills:
       - source-command
     update_policy: git
     status: active
+
+  - id: automation-audit-ops
+    canonical_name: automation-audit-ops
+    display_name: Automation Audit Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/automation-audit-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: autonomous-loops
+    canonical_name: autonomous-loops
+    display_name: Autonomous Loops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/autonomous-loops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: customer-billing-ops
+    canonical_name: customer-billing-ops
+    display_name: Customer Billing Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/customer-billing-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: dmux-workflows
+    canonical_name: dmux-workflows
+    display_name: Dmux Workflows
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/dmux-workflows
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: email-ops
+    canonical_name: email-ops
+    display_name: Email Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/email-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: enterprise-agent-ops
+    canonical_name: enterprise-agent-ops
+    display_name: Enterprise Agent Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/enterprise-agent-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: finance-billing-ops
+    canonical_name: finance-billing-ops
+    display_name: Finance Billing Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/finance-billing-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: github-ops
+    canonical_name: github-ops
+    display_name: Github Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/github-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: google-workspace-ops
+    canonical_name: google-workspace-ops
+    display_name: Google Workspace Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/google-workspace-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: inventory-demand-planning
+    canonical_name: inventory-demand-planning
+    display_name: Inventory Demand Planning
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/inventory-demand-planning
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: jira-integration
+    canonical_name: jira-integration
+    display_name: Jira Integration
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/jira-integration
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: knowledge-ops
+    canonical_name: knowledge-ops
+    display_name: Knowledge Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/knowledge-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: logistics-exception-management
+    canonical_name: logistics-exception-management
+    display_name: Logistics Exception Management
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/logistics-exception-management
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: messages-ops
+    canonical_name: messages-ops
+    display_name: Messages Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/messages-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: project-flow-ops
+    canonical_name: project-flow-ops
+    display_name: Project Flow Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/project-flow-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: research-ops
+    canonical_name: research-ops
+    display_name: Research Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/research-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: returns-reverse-logistics
+    canonical_name: returns-reverse-logistics
+    display_name: Returns Reverse Logistics
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/returns-reverse-logistics
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: terminal-ops
+    canonical_name: terminal-ops
+    display_name: Terminal Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/terminal-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: unified-notifications-ops
+    canonical_name: unified-notifications-ops
+    display_name: Unified Notifications Ops
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/unified-notifications-ops
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - business-ops
+    update_policy: git
+    status: active
