@@ -5331,3 +5331,743 @@ skills:
       - engineering
     update_policy: git
     status: active
+
+  - id: agent-harness-construction
+    canonical_name: agent-harness-construction
+    display_name: Agent Harness Construction
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/agent-harness-construction
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: agent-introspection-debugging
+    canonical_name: agent-introspection-debugging
+    display_name: Agent Introspection Debugging
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/agent-introspection-debugging
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: agent-sort
+    canonical_name: agent-sort
+    display_name: Agent Sort
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/agent-sort
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: agentic-engineering
+    canonical_name: agentic-engineering
+    display_name: Agentic Engineering
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/agentic-engineering
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: ai-first-engineering
+    canonical_name: ai-first-engineering
+    display_name: Ai First Engineering
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/ai-first-engineering
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: ai-regression-testing
+    canonical_name: ai-regression-testing
+    display_name: Ai Regression Testing
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/ai-regression-testing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: blueprint
+    canonical_name: blueprint
+    display_name: Blueprint
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/blueprint
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: claude-api
+    canonical_name: claude-api
+    display_name: Claude Api
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/claude-api
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: claude-devfleet
+    canonical_name: claude-devfleet
+    display_name: Claude Devfleet
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/claude-devfleet
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: configure-ecc
+    canonical_name: configure-ecc
+    display_name: Configure Ecc
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/configure-ecc
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: content-hash-cache-pattern
+    canonical_name: content-hash-cache-pattern
+    display_name: Content Hash Cache Pattern
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/content-hash-cache-pattern
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: continuous-agent-loop
+    canonical_name: continuous-agent-loop
+    display_name: Continuous Agent Loop
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/continuous-agent-loop
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: continuous-learning
+    canonical_name: continuous-learning
+    display_name: Continuous Learning
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/continuous-learning
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: continuous-learning-v2
+    canonical_name: continuous-learning-v2
+    display_name: Continuous Learning V2
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/continuous-learning-v2
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: cost-aware-llm-pipeline
+    canonical_name: cost-aware-llm-pipeline
+    display_name: Cost Aware Llm Pipeline
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/cost-aware-llm-pipeline
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: council
+    canonical_name: council
+    display_name: Council
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/council
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: data-scraper-agent
+    canonical_name: data-scraper-agent
+    display_name: Data Scraper Agent
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/data-scraper-agent
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: deep-research
+    canonical_name: deep-research
+    display_name: Deep Research
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/deep-research
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: eval-harness
+    canonical_name: eval-harness
+    display_name: Eval Harness
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/eval-harness
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: exa-search
+    canonical_name: exa-search
+    display_name: Exa Search
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/exa-search
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: find-skills
+    canonical_name: find-skills
+    display_name: Find Skills
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/find-skills
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: hookify-rules
+    canonical_name: hookify-rules
+    display_name: Hookify Rules
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/hookify-rules
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: iterative-retrieval
+    canonical_name: iterative-retrieval
+    display_name: Iterative Retrieval
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/iterative-retrieval
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: llm-trading-agent-security
+    canonical_name: llm-trading-agent-security
+    display_name: Llm Trading Agent Security
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/llm-trading-agent-security
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: nanoclaw-repl
+    canonical_name: nanoclaw-repl
+    display_name: Nanoclaw Repl
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/nanoclaw-repl
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: plankton-code-quality
+    canonical_name: plankton-code-quality
+    display_name: Plankton Code Quality
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/plankton-code-quality
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: planning-with-files
+    canonical_name: planning-with-files
+    display_name: Planning With Files
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/planning-with-files
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: prompt-optimizer
+    canonical_name: prompt-optimizer
+    display_name: Prompt Optimizer
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/prompt-optimizer
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: ralphinho-rfc-pipeline
+    canonical_name: ralphinho-rfc-pipeline
+    display_name: Ralphinho Rfc Pipeline
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/ralphinho-rfc-pipeline
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: regex-vs-llm-structured-text
+    canonical_name: regex-vs-llm-structured-text
+    display_name: Regex Vs Llm Structured Text
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/regex-vs-llm-structured-text
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: search-first
+    canonical_name: search-first
+    display_name: Search First
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/search-first
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: skill-stocktake
+    canonical_name: skill-stocktake
+    display_name: Skill Stocktake
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/skill-stocktake
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: social-graph-ranker
+    canonical_name: social-graph-ranker
+    display_name: Social Graph Ranker
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/social-graph-ranker
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: strategic-compact
+    canonical_name: strategic-compact
+    display_name: Strategic Compact
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/strategic-compact
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: team-builder
+    canonical_name: team-builder
+    display_name: Team Builder
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/team-builder
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: token-budget-advisor
+    canonical_name: token-budget-advisor
+    display_name: Token Budget Advisor
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/token-budget-advisor
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
+
+  - id: workspace-surface-audit
+    canonical_name: workspace-surface-audit
+    display_name: Workspace Surface Audit
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/workspace-surface-audit
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active

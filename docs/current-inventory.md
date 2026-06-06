@@ -284,6 +284,46 @@
 - `tdd-workflow`
 - `verification-loop`
 
+## Custom / AI Agent
+
+- `agent-harness-construction`
+- `agent-introspection-debugging`
+- `agent-sort`
+- `agentic-engineering`
+- `ai-first-engineering`
+- `ai-regression-testing`
+- `blueprint`
+- `claude-api`
+- `claude-devfleet`
+- `configure-ecc`
+- `content-hash-cache-pattern`
+- `continuous-agent-loop`
+- `continuous-learning`
+- `continuous-learning-v2`
+- `cost-aware-llm-pipeline`
+- `council`
+- `data-scraper-agent`
+- `deep-research`
+- `eval-harness`
+- `exa-search`
+- `find-skills`
+- `hookify-rules`
+- `iterative-retrieval`
+- `llm-trading-agent-security`
+- `nanoclaw-repl`
+- `plankton-code-quality`
+- `planning-with-files`
+- `prompt-optimizer`
+- `ralphinho-rfc-pipeline`
+- `regex-vs-llm-structured-text`
+- `search-first`
+- `skill-stocktake`
+- `social-graph-ranker`
+- `strategic-compact`
+- `team-builder`
+- `token-budget-advisor`
+- `workspace-surface-audit`
+
 ## 待脱敏后纳管
 
 - `api-design`
@@ -295,6 +335,7 @@
 - `laravel-security`
 - `python-testing`
 - `springboot-security`
+- `impeccable`
 - `source-command-kotlin-test`
 
 ## Custom / SecondMe
