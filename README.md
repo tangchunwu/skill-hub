@@ -1,276 +1,198 @@
 # Skill Hub
 
-统一管理自研 skill、上游 skill、工作流、同步目标和版本回退的总仓。
+`skill-hub` 是个人 skill 的统一主仓，用来管理、脱敏、同步和回退 Codex / Claude / 其他运行环境里的 skill。
 
-这个仓库解决的是 skill 生命周期管理，而不只是“把 skill 放在哪”：
+当前已纳管 `351` 个 skill。后续多台电脑不要再手工互相复制 skill，统一从这个仓库拉取，再用脚本同步到本机工具目录。
 
-- 自己写的 skill 如何长期维护
-- 外部拉取的 skill 如何跟踪上游更新
-- Skill 如何同步到 Codex / Claude / Web
-- Skill 改坏以后如何回退
-- 多台电脑、多工具之间如何保持一致
+## 快速开始
 
-## 核心目标
+### macOS / Linux
 
-- 单一可信源：只认 `skill-hub` 为主仓
-- 来源可追踪：每个 skill 都记录来源和路径
-- 命名可统一：别名和主名称分离管理
-- 分发可控：导出到不同工具时不再手工复制
-- 回退安全：支持目录级备份和仓库级 rollback commit
+```bash
+git clone https://github.com/tangchunwu/skill-hub.git
+cd skill-hub
 
-## 当前纳管的 skill
+# 同步到 Codex
+python3 scripts/sync_skills.py --target codex-local --mode copy --force
 
-### Product / Research
+# 同步到 Claude
+python3 scripts/sync_skills.py --target claude-local --mode copy --force
+```
 
-- `create-prd`
-- `competitor-analysis`
-- `tavily-research`
-- `summarize-interview`
-- `prioritization-frameworks`
-- `customer-journey-map`
+### Windows PowerShell
 
-### Strategy / Growth / Management
+```powershell
+git clone https://github.com/tangchunwu/skill-hub.git
+cd skill-hub
 
-- `okr-coach`
-- `executive-update-generator`
-- `go-to-market-strategy`
-- `ab-test-analysis`
-- `altitude-horizon-framework`
+# 同步到 Codex
+python scripts/sync_skills.py --target codex-local --mode copy --force
 
-### Custom / Ops / Content
+# 同步到 Claude
+python scripts/sync_skills.py --target claude-local --mode copy --force
+```
 
-- `flow2api-imagegen`
-- `minecontext-sync-soul-mirror`
-- `openclaw-blinko-writer`
-- `openclaw-content-ops`
-- `openclaw-image-bed-uploader`
-- `openclaw-personal-blog-publisher`
-- `personal-blog-publisher-direct`
-- `image-bed-uploader-direct`
-- `content-ops-direct`
-- `qclaw-asar-hotfix`
-- `ssh-skill`
+Windows 端如果目标目录和默认配置不同，先修改 `registry/sync-targets.yaml` 里的 `root`，再执行同步。
 
-### Custom / Management
+## 常用命令
 
-- `skills-updater`
-- `自更新`
-- `skill-manager`
-- `sync-minecontext`
-- `openclaw-cloudpc-bridge`
+查看仓库状态：
 
-## 目录结构
+```bash
+python3 scripts/sync_repo.py status
+```
+
+只同步一个 skill：
+
+```bash
+python3 scripts/sync_skills.py --target codex-local --mode copy --skill personal-blog-publisher-direct --force
+```
+
+同步所有启用目标：
+
+```bash
+python3 scripts/sync_skills.py --target all --mode copy --force
+```
+
+提交并推送：
+
+```bash
+python3 scripts/sync_repo.py commit --message "Update skills" --push
+```
+
+扫描疑似密钥：
+
+```bash
+python3 scripts/scan_skill_secrets.py --path skills/custom/content
+```
+
+## 当前结构
 
 ```text
 skill-hub/
 ├── registry/
-│   ├── skills.yaml
-│   ├── aliases.yaml
-│   └── sync-targets.yaml
+│   ├── skills.yaml        # skill 主登记表
+│   ├── aliases.yaml       # 人话别名到 canonical id 的映射
+│   └── sync-targets.yaml  # 本机同步目标
 ├── skills/
-│   ├── custom/
-│   ├── upstream/
-│   └── patched/
+│   ├── custom/            # 自研或本地维护 skill
+│   ├── upstream/          # 外部原样拉取 skill
+│   └── patched/           # 基于上游改造的 skill
+├── scripts/               # 同步、扫描、更新、回退脚本
+├── docs/                  # 治理规则、库存、更新手册
 ├── workflows/
-├── exports/
-├── scripts/
-└── docs/
+└── exports/
 ```
 
-## 三类 skill
+## 分类概览
 
-### `skills/custom/`
+当前 registry 分类数量：
 
-你自己编写和长期维护的 skill。
+| 分类 | 数量 |
+| --- | ---: |
+| business-ops | 64 |
+| engineering | 60 |
+| source-command | 48 |
+| content | 41 |
+| ai-agent | 38 |
+| agent-ops | 19 |
+| management | 13 |
+| product | 11 |
+| industry | 10 |
+| research | 8 |
+| infra | 8 |
+| design | 7 |
+| media | 6 |
+| review | 4 |
+| workflow | 4 |
+| security | 2 |
+| strategy | 2 |
+| growth | 2 |
+| data | 2 |
+| app / image | 1 / 1 |
 
-特点：
+完整清单见 `docs/current-inventory.md`，真实可导出的来源以 `registry/skills.yaml` 为准。
 
-- 你是唯一维护者
-- 名称和结构由你定义
-- 变更直接进入 Git 历史
+## 日常工作流
 
-### `skills/upstream/`
+### 修改已有 skill
 
-从外部来源原样拉取的 skill。
-
-特点：
-
-- 尽量不直接改
-- 保留真实上游名称
-- 定期重新同步
-
-### `skills/patched/`
-
-基于上游 skill 做过本地改造的版本。
-
-特点：
-
-- 必须在 registry 记录来源
-- 必须记录为何不能只用 upstream
-- 上游更新时需要人工合并
-
-## Registry 规则
-
-### `registry/skills.yaml`
-
-记录每个 skill 的：
-
-- canonical name
-- 类型
-- 来源
-- 本地路径
-- 是否允许导出
-- 适用工具
-- 更新策略
-
-### `registry/aliases.yaml`
-
-记录：
-
-- 人话入口
-- 历史旧名
-- 业务别名
-
-这些别名统一映射到主 skill 名。
-
-### `registry/sync-targets.yaml`
-
-记录：
-
-- 同步目标
-- 目标根目录
-- 导出模式
-- 是否启用
-
-## 脚本
-
-当前提供 3 个基础脚本：
-
-### `scripts/update_upstream_skills.py`
-
-作用：
-
-- 按 registry 中记录的来源重新拉取上游 skill
-- 支持 GitHub 路径型和直接下载 zip
-- 更新前自动备份现有目录
-
-示例：
+1. 在 `skills/custom/...` 中修改。
+2. 如名称、分类或导出路径变化，更新 `registry/skills.yaml`。
+3. 如入口别名变化，更新 `registry/aliases.yaml`。
+4. 执行密钥扫描。
+5. 同步到本机目标目录验证。
+6. 提交并推送。
 
 ```bash
-python3 scripts/update_upstream_skills.py --all
+python3 scripts/scan_skill_secrets.py --path skills/custom/<category>/<skill>
+python3 scripts/sync_skills.py --target codex-local --mode copy --skill <skill> --force
+python3 scripts/sync_repo.py commit --message "Update <skill>" --push
+```
+
+### 纳管新的本地 skill
+
+1. 先扫描原始目录。
+2. 发现 token、API key、password、private key 时，先脱敏。
+3. 复制到合适的 `skills/custom/<category>/`。
+4. 追加 `registry/skills.yaml`。
+5. 必要时追加 `registry/aliases.yaml`。
+6. 再扫描仓库副本并同步抽样验证。
+
+```bash
+python3 scripts/scan_skill_secrets.py --path ~/.codex/skills/example-skill
+```
+
+### 更新上游 skill
+
+```bash
 python3 scripts/update_upstream_skills.py --skill create-prd
 python3 scripts/update_upstream_skills.py --all --dry-run
 ```
 
-### `scripts/sync_skills.py`
+上游 skill 尽量放在 `skills/upstream/`，如果需要长期私有改造，复制到 `skills/patched/` 并在 registry 里记录原因。
 
-作用：
+## 安全规则
 
-- 将 skill-hub 中允许导出的 skill 同步到目标工具目录
-- 支持 `copy` 和 `symlink`
-- 支持批量同步所有启用目标
+- 不把 token、API key、password、private key 写入仓库。
+- 需要鉴权的 skill 使用环境变量、系统凭据或本机配置文件。
+- 用户给出的密钥只用于当前机器验证，不写进 `SKILL.md`、脚本、示例 JSON 或文档。
+- 纳管前和提交前都要跑 `scripts/scan_skill_secrets.py`。
+- 嵌套 `.git` 目录不能进入仓库；skill 必须以普通文件纳管，不能变成 gitlink。
 
-示例：
+已知安全例外和处理记录见 `docs/security-exceptions.md`。
 
-```bash
-python3 scripts/sync_skills.py --target codex-local --mode symlink --force
-python3 scripts/sync_skills.py --target claude-local --mode symlink --force
-python3 scripts/sync_skills.py --target all --mode symlink --force
+## 同步目标
+
+默认同步目标在 `registry/sync-targets.yaml`：
+
+- `codex-local` -> `~/.codex/skills`
+- `claude-local` -> `~/.claude/skills`
+- `web-runtime` -> `exports/web`，默认关闭
+
+如果在 Windows 上路径不同，可以把 `root` 改成 Windows 路径，例如：
+
+```yaml
+root: C:/Users/<YourName>/.codex/skills
 ```
 
-### `scripts/sync_repo.py`
+## 回退
 
-作用：
+目录级回退由同步脚本自动备份：
 
-- 查看仓库状态
-- 提交并推送改动
-- 安全回退到指定提交内容
+- `sync_skills.py --force`
+- `update_upstream_skills.py`
 
-示例：
+仓库级回退使用 rollback commit，不直接重写历史：
 
 ```bash
-python3 scripts/sync_repo.py status
-python3 scripts/sync_repo.py commit --message "Update skills" --push
 python3 scripts/sync_repo.py rollback --to <commit> --push
 ```
 
-### `scripts/scan_skill_secrets.py`
+## 维护原则
 
-作用：
-
-- 在纳管或提交前扫描疑似硬编码密钥
-- 只输出文件位置和脱敏预览
-- 发现风险时返回非零退出码
-
-示例：
-
-```bash
-python3 scripts/scan_skill_secrets.py --path ~/.codex/skills/example-skill
-python3 scripts/scan_skill_secrets.py --path skills/custom/content
-```
-
-## 回退机制
-
-### 1. 目录级回退
-
-以下操作在覆盖前会自动备份原目录：
-
-- `update_upstream_skills.py`
-- `sync_skills.py --force`
-
-适合：
-
-- 单个 skill 被错误覆盖
-- 导出目录被不稳定内容污染
-
-### 2. 仓库级回退
-
-`sync_repo.py rollback` 不会直接重写历史，而是：
-
-1. 将工作树恢复到指定提交内容
-2. 生成一个新的 rollback commit
-3. 可选择推送到远端
-
-这样更适合 Agent 场景，避免误用危险命令。
-
-## 推荐工作流
-
-### 自研 skill 更新
-
-1. 修改 `skills/custom/...`
-2. 更新 `registry/skills.yaml`
-3. 如需兼容旧入口，更新 `registry/aliases.yaml`
-4. 运行 `sync_skills.py`
-5. 运行 `sync_repo.py commit --push`
-
-### 上游 skill 更新
-
-1. 运行 `update_upstream_skills.py`
-2. 检查变更
-3. 运行 `sync_skills.py --target all`
-4. 运行 `sync_repo.py commit --push`
-
-### 紧急回退
-
-1. 用 `sync_repo.py status` 查看当前状态
-2. 找到要回退到的 commit
-3. 执行 `sync_repo.py rollback --to <commit> --push`
-
-## 设计约束
-
-- 不直接把 `~/.codex/skills` 或 `~/.claude/skills` 当主仓
-- 不在导出目录长期手改 skill
-- 不在 `upstream` 目录里直接做长期私有修改
-- 一切变更先回到 `skill-hub`
-
-## 下一步
-
-后续建议继续补：
-
-- `ingest_local_changes.py`
-  - 把工具目录中的临时修改回收到 `skill-hub`
-
-- `build-exports`
-  - 为 Web 产品生成运行时导出结果
-
-- `patched` skill 的自动差异检查
+- `skill-hub` 是唯一可信源。
+- 不长期手改 `~/.codex/skills` 或 `~/.claude/skills`。
+- registry 追加尽量保持可审查，不随意重排大文件。
+- 每次大批量纳管按分类分批提交。
+- 改动后先本机同步验证，再推送到远端。
