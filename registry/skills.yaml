@@ -2904,3 +2904,1070 @@ skills:
       - business-ops
     update_policy: git
     status: active
+
+  - id: baoyu-danger-x-to-markdown
+    canonical_name: baoyu-danger-x-to-markdown
+    display_name: Baoyu Danger X To Markdown
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-danger-x-to-markdown
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+      - x
+    update_policy: git
+    status: active
+
+  - id: secondme
+    canonical_name: secondme
+    display_name: Secondme
+    category: product
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/product/secondme
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - secondme
+      - product
+    update_policy: git
+    status: active
+
+  - id: secondme-init
+    canonical_name: secondme-init
+    display_name: Secondme Init
+    category: product
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/product/secondme-init
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - secondme
+      - product
+    update_policy: git
+    status: active
+
+  - id: secondme-nextjs
+    canonical_name: secondme-nextjs
+    display_name: Secondme Nextjs
+    category: product
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/product/secondme-nextjs
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - secondme
+      - product
+    update_policy: git
+    status: active
+
+  - id: secondme-prd
+    canonical_name: secondme-prd
+    display_name: Secondme Prd
+    category: product
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/product/secondme-prd
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - secondme
+      - product
+    update_policy: git
+    status: active
+
+  - id: secondme-reference
+    canonical_name: secondme-reference
+    display_name: Secondme Reference
+    category: product
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/product/secondme-reference
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - secondme
+      - product
+    update_policy: git
+    status: active
+
+  - id: source-command-aside
+    canonical_name: source-command-aside
+    display_name: Source Command Aside
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-aside
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-audit
+    canonical_name: source-command-audit
+    display_name: Source Command Audit
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-audit
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-ccg-clean-branches
+    canonical_name: source-command-ccg-clean-branches
+    display_name: Source Command Ccg Clean Branches
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-ccg-clean-branches
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-ccg-commit
+    canonical_name: source-command-ccg-commit
+    display_name: Source Command Ccg Commit
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-ccg-commit
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-ccg-review
+    canonical_name: source-command-ccg-review
+    display_name: Source Command Ccg Review
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-ccg-review
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-ccg-rollback
+    canonical_name: source-command-ccg-rollback
+    display_name: Source Command Ccg Rollback
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-ccg-rollback
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-ccg-spec-impl
+    canonical_name: source-command-ccg-spec-impl
+    display_name: Source Command Ccg Spec Impl
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-ccg-spec-impl
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-ccg-spec-plan
+    canonical_name: source-command-ccg-spec-plan
+    display_name: Source Command Ccg Spec Plan
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-ccg-spec-plan
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-ccg-spec-review
+    canonical_name: source-command-ccg-spec-review
+    display_name: Source Command Ccg Spec Review
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-ccg-spec-review
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-ccg-worktree
+    canonical_name: source-command-ccg-worktree
+    display_name: Source Command Ccg Worktree
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-ccg-worktree
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-cpp-build
+    canonical_name: source-command-cpp-build
+    display_name: Source Command Cpp Build
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-cpp-build
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-cpp-review
+    canonical_name: source-command-cpp-review
+    display_name: Source Command Cpp Review
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-cpp-review
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-cpp-test
+    canonical_name: source-command-cpp-test
+    display_name: Source Command Cpp Test
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-cpp-test
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-evolve
+    canonical_name: source-command-evolve
+    display_name: Source Command Evolve
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-evolve
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-extract
+    canonical_name: source-command-extract
+    display_name: Source Command Extract
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-extract
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-feature-dev
+    canonical_name: source-command-feature-dev
+    display_name: Source Command Feature Dev
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-feature-dev
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-flutter-build
+    canonical_name: source-command-flutter-build
+    display_name: Source Command Flutter Build
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-flutter-build
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-flutter-review
+    canonical_name: source-command-flutter-review
+    display_name: Source Command Flutter Review
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-flutter-review
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-flutter-test
+    canonical_name: source-command-flutter-test
+    display_name: Source Command Flutter Test
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-flutter-test
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-go-build
+    canonical_name: source-command-go-build
+    display_name: Source Command Go Build
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-go-build
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-go-review
+    canonical_name: source-command-go-review
+    display_name: Source Command Go Review
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-go-review
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-gradle-build
+    canonical_name: source-command-gradle-build
+    display_name: Source Command Gradle Build
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-gradle-build
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-hookify
+    canonical_name: source-command-hookify
+    display_name: Source Command Hookify
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-hookify
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-hookify-configure
+    canonical_name: source-command-hookify-configure
+    display_name: Source Command Hookify Configure
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-hookify-configure
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-hookify-help
+    canonical_name: source-command-hookify-help
+    display_name: Source Command Hookify Help
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-hookify-help
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-hookify-list
+    canonical_name: source-command-hookify-list
+    display_name: Source Command Hookify List
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-hookify-list
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-init
+    canonical_name: source-command-init
+    display_name: Source Command Init
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-init
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-instinct-export
+    canonical_name: source-command-instinct-export
+    display_name: Source Command Instinct Export
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-instinct-export
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-instinct-import
+    canonical_name: source-command-instinct-import
+    display_name: Source Command Instinct Import
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-instinct-import
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-instinct-status
+    canonical_name: source-command-instinct-status
+    display_name: Source Command Instinct Status
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-instinct-status
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-jira
+    canonical_name: source-command-jira
+    display_name: Source Command Jira
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-jira
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-kotlin-build
+    canonical_name: source-command-kotlin-build
+    display_name: Source Command Kotlin Build
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-kotlin-build
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-learn-eval
+    canonical_name: source-command-learn-eval
+    display_name: Source Command Learn Eval
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-learn-eval
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-plan
+    canonical_name: source-command-plan
+    display_name: Source Command Plan
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-plan
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-projects
+    canonical_name: source-command-projects
+    display_name: Source Command Projects
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-projects
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-promote
+    canonical_name: source-command-promote
+    display_name: Source Command Promote
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-promote
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-prune
+    canonical_name: source-command-prune
+    display_name: Source Command Prune
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-prune
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-python-review
+    canonical_name: source-command-python-review
+    display_name: Source Command Python Review
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-python-review
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-resume-session
+    canonical_name: source-command-resume-session
+    display_name: Source Command Resume Session
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-resume-session
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-review-pr
+    canonical_name: source-command-review-pr
+    display_name: Source Command Review Pr
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-review-pr
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-rust-build
+    canonical_name: source-command-rust-build
+    display_name: Source Command Rust Build
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-rust-build
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-rust-review
+    canonical_name: source-command-rust-review
+    display_name: Source Command Rust Review
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-rust-review
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-save-session
+    canonical_name: source-command-save-session
+    display_name: Source Command Save Session
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-save-session
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-setup-pm
+    canonical_name: source-command-setup-pm
+    display_name: Source Command Setup Pm
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-setup-pm
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-skill-create
+    canonical_name: source-command-skill-create
+    display_name: Source Command Skill Create
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-skill-create
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-skill-health
+    canonical_name: source-command-skill-health
+    display_name: Source Command Skill Health
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-skill-health
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active
+
+  - id: source-command-status
+    canonical_name: source-command-status
+    display_name: Source Command Status
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-status
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active

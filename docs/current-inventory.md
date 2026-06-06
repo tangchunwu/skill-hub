@@ -205,3 +205,65 @@
 - `lark-workflow-standup-report`
 - `lark-workflow-stock-analyzer`
 - `lark-workflow-task-digest`
+
+## Custom / Baoyu Exception
+
+- `baoyu-danger-x-to-markdown`
+
+## Custom / SecondMe
+
+- `secondme`
+- `secondme-init`
+- `secondme-nextjs`
+- `secondme-prd`
+- `secondme-reference`
+
+## Custom / Source Command
+
+- `source-command-aside`
+- `source-command-audit`
+- `source-command-ccg-clean-branches`
+- `source-command-ccg-commit`
+- `source-command-ccg-review`
+- `source-command-ccg-rollback`
+- `source-command-ccg-spec-impl`
+- `source-command-ccg-spec-plan`
+- `source-command-ccg-spec-review`
+- `source-command-ccg-worktree`
+- `source-command-cpp-build`
+- `source-command-cpp-review`
+- `source-command-cpp-test`
+- `source-command-evolve`
+- `source-command-extract`
+- `source-command-feature-dev`
+- `source-command-flutter-build`
+- `source-command-flutter-review`
+- `source-command-flutter-test`
+- `source-command-go-build`
+- `source-command-go-review`
+- `source-command-gradle-build`
+- `source-command-hookify`
+- `source-command-hookify-configure`
+- `source-command-hookify-help`
+- `source-command-hookify-list`
+- `source-command-init`
+- `source-command-instinct-export`
+- `source-command-instinct-import`
+- `source-command-instinct-status`
+- `source-command-jira`
+- `source-command-kotlin-build`
+- `source-command-learn-eval`
+- `source-command-plan`
+- `source-command-projects`
+- `source-command-promote`
+- `source-command-prune`
+- `source-command-python-review`
+- `source-command-resume-session`
+- `source-command-review-pr`
+- `source-command-rust-build`
+- `source-command-rust-review`
+- `source-command-save-session`
+- `source-command-setup-pm`
+- `source-command-skill-create`
+- `source-command-skill-health`
+- `source-command-status`

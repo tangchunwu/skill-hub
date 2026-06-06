@@ -213,3 +213,24 @@ aliases:
 
   - alias: 飞书晨报
     target: lark-workflow-morning-brief
+
+  - alias: X 转 Markdown
+    target: baoyu-danger-x-to-markdown
+
+  - alias: Second Me
+    target: secondme
+
+  - alias: SecondMe 初始化
+    target: secondme-init
+
+  - alias: Source Command
+    target: source-command-status
+
+  - alias: CCG 提交
+    target: source-command-ccg-commit
+
+  - alias: Hookify
+    target: source-command-hookify
+
+  - alias: Jira Source Command
+    target: source-command-jira
