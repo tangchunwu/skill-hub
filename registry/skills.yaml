@@ -393,6 +393,73 @@ skills:
     update_policy: git
     status: active
 
+  - id: personal-blog-publisher-direct
+    canonical_name: personal-blog-publisher-direct
+    display_name: Personal Blog Publisher Direct
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/personal-blog-publisher-direct
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - blog
+      - publish
+      - direct-api
+    update_policy: git
+    status: active
+
+  - id: image-bed-uploader-direct
+    canonical_name: image-bed-uploader-direct
+    display_name: Image Bed Uploader Direct
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/image-bed-uploader-direct
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - image-bed
+      - upload
+      - direct-api
+    update_policy: git
+    status: active
+
+  - id: content-ops-direct
+    canonical_name: content-ops-direct
+    display_name: Content Ops Direct
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/content-ops-direct
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+      - blog
+      - image-bed
+      - direct-api
+    update_policy: git
+    status: active
+
   - id: qclaw-asar-hotfix
     canonical_name: qclaw-asar-hotfix
     display_name: QClaw Asar Hotfix

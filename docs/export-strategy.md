@@ -23,3 +23,4 @@
 
 - 只导出 `registry/skills.yaml` 中 `exported: true` 的 skill
 - 别名由运行时路由处理，不直接复制成多个目录
+- 密钥、token、上传密码不随 skill 导出，必须在目标机器通过环境变量或系统凭据配置

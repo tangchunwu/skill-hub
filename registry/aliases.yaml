@@ -70,6 +70,24 @@ aliases:
   - alias: 发布博客
     target: openclaw-personal-blog-publisher
 
+  - alias: 直连发布博客
+    target: personal-blog-publisher-direct
+
+  - alias: 不用 SSH 发布博客
+    target: personal-blog-publisher-direct
+
+  - alias: 直连上传图床
+    target: image-bed-uploader-direct
+
+  - alias: 不用 SSH 上传图床
+    target: image-bed-uploader-direct
+
+  - alias: 直连内容分发
+    target: content-ops-direct
+
+  - alias: 图片配合博客发布
+    target: content-ops-direct
+
   - alias: QClaw 热修复
     target: qclaw-asar-hotfix
 

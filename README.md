@@ -45,6 +45,9 @@
 - `openclaw-content-ops`
 - `openclaw-image-bed-uploader`
 - `openclaw-personal-blog-publisher`
+- `personal-blog-publisher-direct`
+- `image-bed-uploader-direct`
+- `content-ops-direct`
 - `qclaw-asar-hotfix`
 - `ssh-skill`
 
