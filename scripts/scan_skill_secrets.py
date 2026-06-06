@@ -187,6 +187,18 @@ def is_safe_reference(line: str) -> bool:
         return True
     if re.search(r"\b(?:token|secret|password)\s*:\s*(?:list|dict|str|int|bool|Sequence|Iterable)\b", line):
         return True
+    if re.search(r"\b(?:token|secret|password)\s*:\s*(?:Tokens|[A-Z][A-Za-z0-9_.<>]*)\b", line):
+        return True
+    if re.search(r"\b(?:token|secret|password|apiKey)\s*=\s*(?:get[A-Z][A-Za-z0-9_]*\(|fetch[A-Z][A-Za-z0-9_]*\()", line):
+        return True
+    if "Failed to fetch access token" in line:
+        return True
+    if re.search(r"\b(?:appSecret|accessToken|apiKey)\b", line) and re.search(r"\$\{[A-Za-z0-9_]*(?:Secret|Token|Key)\}", line):
+        return True
+    if re.search(r"<(?:image|file|whiteboard|mention-doc)\s+token=", line):
+        return True
+    if "token=”XXX”" in line or 'token="doxcnXXX"' in line:
+        return True
     if re.search(r"\b(?:token|secret|password|pkey)\s*=\s*(?:params|metadata|os\.environ|os\.getenv|self|match|token_match)\b", line):
         return True
     if re.search(r"\b(?:password|token|secret)\s*=\s*[A-Za-z_][A-Za-z0-9_]*\b", line):

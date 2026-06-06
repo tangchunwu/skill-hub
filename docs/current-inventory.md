@@ -140,3 +140,68 @@
 
 - `vibehood-bridge-setup`
 - `wave-global-background`
+
+## Custom / Baoyu Content
+
+- `baoyu-article-illustrator`
+- `baoyu-comic`
+- `baoyu-compress-image`
+- `baoyu-cover-image`
+- `baoyu-danger-gemini-web`
+- `baoyu-format-markdown`
+- `baoyu-image-gen`
+- `baoyu-infographic`
+- `baoyu-markdown-to-html`
+- `baoyu-post-to-wechat`
+- `baoyu-post-to-x`
+- `baoyu-slide-deck`
+- `baoyu-url-to-markdown`
+- `baoyu-xhs-images`
+
+## Custom / Lark Business Ops
+
+- `lark-approval`
+- `lark-attendance`
+- `lark-base`
+- `lark-calendar`
+- `lark-contact`
+- `lark-doc`
+- `lark-drive`
+- `lark-event`
+- `lark-im`
+- `lark-mail`
+- `lark-minutes`
+- `lark-openapi-explorer`
+- `lark-shared`
+- `lark-sheets`
+- `lark-skill-maker`
+- `lark-slides`
+- `lark-task`
+- `lark-vc`
+- `lark-whiteboard`
+- `lark-whiteboard-cli`
+- `lark-wiki`
+- `lark-workflow-announce`
+- `lark-workflow-approval-reminder`
+- `lark-workflow-bitable-sync`
+- `lark-workflow-business-advisor`
+- `lark-workflow-chat-digest`
+- `lark-workflow-content-pipeline`
+- `lark-workflow-crm`
+- `lark-workflow-doc-perm`
+- `lark-workflow-erp-inventory`
+- `lark-workflow-form-builder`
+- `lark-workflow-health-diary`
+- `lark-workflow-knowledge-base`
+- `lark-workflow-meeting-finder`
+- `lark-workflow-meeting-notes`
+- `lark-workflow-meeting-summary`
+- `lark-workflow-meeting-todo`
+- `lark-workflow-morning-brief`
+- `lark-workflow-multi-agent-dev`
+- `lark-workflow-onboard`
+- `lark-workflow-personal-crm`
+- `lark-workflow-social-tracker`
+- `lark-workflow-standup-report`
+- `lark-workflow-stock-analyzer`
+- `lark-workflow-task-digest`

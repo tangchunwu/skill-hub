@@ -1641,3 +1641,1266 @@ skills:
       - protocol
     update_policy: git
     status: active
+
+  - id: baoyu-article-illustrator
+    canonical_name: baoyu-article-illustrator
+    display_name: Baoyu Article Illustrator
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-article-illustrator
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-comic
+    canonical_name: baoyu-comic
+    display_name: Baoyu Comic
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-comic
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-compress-image
+    canonical_name: baoyu-compress-image
+    display_name: Baoyu Compress Image
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-compress-image
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-cover-image
+    canonical_name: baoyu-cover-image
+    display_name: Baoyu Cover Image
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-cover-image
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-danger-gemini-web
+    canonical_name: baoyu-danger-gemini-web
+    display_name: Baoyu Danger Gemini Web
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-danger-gemini-web
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-format-markdown
+    canonical_name: baoyu-format-markdown
+    display_name: Baoyu Format Markdown
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-format-markdown
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-image-gen
+    canonical_name: baoyu-image-gen
+    display_name: Baoyu Image Gen
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-image-gen
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-infographic
+    canonical_name: baoyu-infographic
+    display_name: Baoyu Infographic
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-infographic
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-markdown-to-html
+    canonical_name: baoyu-markdown-to-html
+    display_name: Baoyu Markdown To Html
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-markdown-to-html
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-post-to-wechat
+    canonical_name: baoyu-post-to-wechat
+    display_name: Baoyu Post To Wechat
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-post-to-wechat
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-post-to-x
+    canonical_name: baoyu-post-to-x
+    display_name: Baoyu Post To X
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-post-to-x
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-slide-deck
+    canonical_name: baoyu-slide-deck
+    display_name: Baoyu Slide Deck
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-slide-deck
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-url-to-markdown
+    canonical_name: baoyu-url-to-markdown
+    display_name: Baoyu Url To Markdown
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-url-to-markdown
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: baoyu-xhs-images
+    canonical_name: baoyu-xhs-images
+    display_name: Baoyu Xhs Images
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/baoyu-xhs-images
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - baoyu
+      - content
+    update_policy: git
+    status: active
+
+  - id: lark-approval
+    canonical_name: lark-approval
+    display_name: Lark Approval
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-approval
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-attendance
+    canonical_name: lark-attendance
+    display_name: Lark Attendance
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-attendance
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-base
+    canonical_name: lark-base
+    display_name: Lark Base
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-base
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-calendar
+    canonical_name: lark-calendar
+    display_name: Lark Calendar
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-calendar
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-contact
+    canonical_name: lark-contact
+    display_name: Lark Contact
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-contact
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-doc
+    canonical_name: lark-doc
+    display_name: Lark Doc
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-doc
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-drive
+    canonical_name: lark-drive
+    display_name: Lark Drive
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-drive
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-event
+    canonical_name: lark-event
+    display_name: Lark Event
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-event
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-im
+    canonical_name: lark-im
+    display_name: Lark Im
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-im
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-mail
+    canonical_name: lark-mail
+    display_name: Lark Mail
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-mail
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-minutes
+    canonical_name: lark-minutes
+    display_name: Lark Minutes
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-minutes
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-openapi-explorer
+    canonical_name: lark-openapi-explorer
+    display_name: Lark Openapi Explorer
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-openapi-explorer
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-shared
+    canonical_name: lark-shared
+    display_name: Lark Shared
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-shared
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-sheets
+    canonical_name: lark-sheets
+    display_name: Lark Sheets
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-sheets
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-skill-maker
+    canonical_name: lark-skill-maker
+    display_name: Lark Skill Maker
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-skill-maker
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-slides
+    canonical_name: lark-slides
+    display_name: Lark Slides
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-slides
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-task
+    canonical_name: lark-task
+    display_name: Lark Task
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-task
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-vc
+    canonical_name: lark-vc
+    display_name: Lark Vc
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-vc
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-whiteboard
+    canonical_name: lark-whiteboard
+    display_name: Lark Whiteboard
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-whiteboard
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-whiteboard-cli
+    canonical_name: lark-whiteboard-cli
+    display_name: Lark Whiteboard Cli
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-whiteboard-cli
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-wiki
+    canonical_name: lark-wiki
+    display_name: Lark Wiki
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-wiki
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-announce
+    canonical_name: lark-workflow-announce
+    display_name: Lark Workflow Announce
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-announce
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-approval-reminder
+    canonical_name: lark-workflow-approval-reminder
+    display_name: Lark Workflow Approval Reminder
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-approval-reminder
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-bitable-sync
+    canonical_name: lark-workflow-bitable-sync
+    display_name: Lark Workflow Bitable Sync
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-bitable-sync
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-business-advisor
+    canonical_name: lark-workflow-business-advisor
+    display_name: Lark Workflow Business Advisor
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-business-advisor
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-chat-digest
+    canonical_name: lark-workflow-chat-digest
+    display_name: Lark Workflow Chat Digest
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-chat-digest
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-content-pipeline
+    canonical_name: lark-workflow-content-pipeline
+    display_name: Lark Workflow Content Pipeline
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-content-pipeline
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-crm
+    canonical_name: lark-workflow-crm
+    display_name: Lark Workflow Crm
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-crm
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-doc-perm
+    canonical_name: lark-workflow-doc-perm
+    display_name: Lark Workflow Doc Perm
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-doc-perm
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-erp-inventory
+    canonical_name: lark-workflow-erp-inventory
+    display_name: Lark Workflow Erp Inventory
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-erp-inventory
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-form-builder
+    canonical_name: lark-workflow-form-builder
+    display_name: Lark Workflow Form Builder
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-form-builder
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-health-diary
+    canonical_name: lark-workflow-health-diary
+    display_name: Lark Workflow Health Diary
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-health-diary
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-knowledge-base
+    canonical_name: lark-workflow-knowledge-base
+    display_name: Lark Workflow Knowledge Base
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-knowledge-base
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-meeting-finder
+    canonical_name: lark-workflow-meeting-finder
+    display_name: Lark Workflow Meeting Finder
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-meeting-finder
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-meeting-notes
+    canonical_name: lark-workflow-meeting-notes
+    display_name: Lark Workflow Meeting Notes
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-meeting-notes
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-meeting-summary
+    canonical_name: lark-workflow-meeting-summary
+    display_name: Lark Workflow Meeting Summary
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-meeting-summary
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-meeting-todo
+    canonical_name: lark-workflow-meeting-todo
+    display_name: Lark Workflow Meeting Todo
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-meeting-todo
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-morning-brief
+    canonical_name: lark-workflow-morning-brief
+    display_name: Lark Workflow Morning Brief
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-morning-brief
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-multi-agent-dev
+    canonical_name: lark-workflow-multi-agent-dev
+    display_name: Lark Workflow Multi Agent Dev
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-multi-agent-dev
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-onboard
+    canonical_name: lark-workflow-onboard
+    display_name: Lark Workflow Onboard
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-onboard
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-personal-crm
+    canonical_name: lark-workflow-personal-crm
+    display_name: Lark Workflow Personal Crm
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-personal-crm
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-social-tracker
+    canonical_name: lark-workflow-social-tracker
+    display_name: Lark Workflow Social Tracker
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-social-tracker
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-standup-report
+    canonical_name: lark-workflow-standup-report
+    display_name: Lark Workflow Standup Report
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-standup-report
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-stock-analyzer
+    canonical_name: lark-workflow-stock-analyzer
+    display_name: Lark Workflow Stock Analyzer
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-stock-analyzer
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active
+
+  - id: lark-workflow-task-digest
+    canonical_name: lark-workflow-task-digest
+    display_name: Lark Workflow Task Digest
+    category: business-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/business-ops/lark-workflow-task-digest
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - lark
+      - workflow
+      - business-ops
+    update_policy: git
+    status: active

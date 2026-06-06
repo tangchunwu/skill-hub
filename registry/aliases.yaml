@@ -153,3 +153,63 @@ aliases:
 
   - alias: OMX 设置
     target: omx-setup
+
+  - alias: 宝玉文章配图
+    target: baoyu-article-illustrator
+
+  - alias: 宝玉封面图
+    target: baoyu-cover-image
+
+  - alias: 宝玉生图
+    target: baoyu-image-gen
+
+  - alias: 宝玉信息图
+    target: baoyu-infographic
+
+  - alias: 发微信公众号
+    target: baoyu-post-to-wechat
+
+  - alias: 发 X
+    target: baoyu-post-to-x
+
+  - alias: 小红书图片
+    target: baoyu-xhs-images
+
+  - alias: Markdown 转 HTML
+    target: baoyu-markdown-to-html
+
+  - alias: 飞书文档
+    target: lark-doc
+
+  - alias: 飞书表格
+    target: lark-sheets
+
+  - alias: 飞书多维表
+    target: lark-base
+
+  - alias: 飞书消息
+    target: lark-im
+
+  - alias: 飞书日历
+    target: lark-calendar
+
+  - alias: 飞书任务
+    target: lark-task
+
+  - alias: 飞书审批
+    target: lark-approval
+
+  - alias: 飞书云盘
+    target: lark-drive
+
+  - alias: 飞书联系人
+    target: lark-contact
+
+  - alias: 飞书会议纪要
+    target: lark-minutes
+
+  - alias: 飞书工作流
+    target: lark-workflow-business-advisor
+
+  - alias: 飞书晨报
+    target: lark-workflow-morning-brief
