@@ -614,3 +614,1030 @@ skills:
       - reverse-ssh
     update_policy: git
     status: active
+
+  - id: ai-slop-cleaner
+    canonical_name: ai-slop-cleaner
+    display_name: AI Slop Cleaner
+    category: workflow
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/workflow/ai-slop-cleaner
+      exported: true
+    tools:
+      - codex
+    tags:
+      - cleanup
+      - refactor
+      - quality
+    update_policy: git
+    status: active
+
+  - id: doko
+    canonical_name: doko
+    display_name: Doko
+    category: workflow
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/workflow/doko
+      exported: true
+    tools:
+      - codex
+    tags:
+      - doko
+      - workflow
+    update_policy: git
+    status: active
+
+  - id: note
+    canonical_name: note
+    display_name: Note
+    category: workflow
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/workflow/note
+      exported: true
+    tools:
+      - codex
+    tags:
+      - note
+      - memory
+    update_policy: git
+    status: active
+
+  - id: plan
+    canonical_name: plan
+    display_name: Plan
+    category: workflow
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/workflow/plan
+      exported: true
+    tools:
+      - codex
+    tags:
+      - plan
+      - strategy
+      - interview
+    update_policy: git
+    status: active
+
+  - id: ask-claude
+    canonical_name: ask-claude
+    display_name: Ask Claude
+    category: research
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/research/ask-claude
+      exported: true
+    tools:
+      - codex
+    tags:
+      - claude
+      - cli
+      - research
+    update_policy: git
+    status: active
+
+  - id: ask-gemini
+    canonical_name: ask-gemini
+    display_name: Ask Gemini
+    category: research
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/research/ask-gemini
+      exported: true
+    tools:
+      - codex
+    tags:
+      - gemini
+      - cli
+      - research
+    update_policy: git
+    status: active
+
+  - id: deep-interview
+    canonical_name: deep-interview
+    display_name: Deep Interview
+    category: research
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/research/deep-interview
+      exported: true
+    tools:
+      - codex
+    tags:
+      - interview
+      - ambiguity
+      - planning
+    update_policy: git
+    status: active
+
+  - id: persona-distill-catalog
+    canonical_name: persona-distill-catalog
+    display_name: Persona Distill Catalog
+    category: research
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/research/persona-distill-catalog
+      exported: true
+    tools:
+      - codex
+    tags:
+      - persona
+      - catalog
+      - install
+    update_policy: git
+    status: active
+
+  - id: steve-jobs-skill
+    canonical_name: steve-jobs-skill
+    display_name: Steve Jobs Skill
+    category: research
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/research/steve-jobs-skill
+      exported: true
+    tools:
+      - codex
+    tags:
+      - persona
+      - strategy
+      - critique
+    update_policy: git
+    status: active
+
+  - id: code-review
+    canonical_name: code-review
+    display_name: Code Review
+    category: review
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/review/code-review
+      exported: true
+    tools:
+      - codex
+    tags:
+      - code
+      - review
+      - quality
+    update_policy: git
+    status: active
+
+  - id: playwright
+    canonical_name: playwright
+    display_name: Playwright
+    category: review
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/review/playwright
+      exported: true
+    tools:
+      - codex
+    tags:
+      - playwright
+      - browser
+      - testing
+    update_policy: git
+    status: active
+
+  - id: security-review
+    canonical_name: security-review
+    display_name: Security Review
+    category: review
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/review/security-review
+      exported: true
+    tools:
+      - codex
+    tags:
+      - security
+      - review
+      - code
+    update_policy: git
+    status: active
+
+  - id: visual-verdict
+    canonical_name: visual-verdict
+    display_name: Visual Verdict
+    category: review
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/review/visual-verdict
+      exported: true
+    tools:
+      - codex
+    tags:
+      - visual
+      - qa
+      - screenshot
+    update_policy: git
+    status: active
+
+  - id: ecommerce-visual-copywriting-skill
+    canonical_name: ecommerce-visual-copywriting-skill
+    display_name: Ecommerce Visual Copywriting Skill
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/ecommerce-visual-copywriting-skill
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ecommerce
+      - copywriting
+      - visual
+    update_policy: git
+    status: active
+
+  - id: ian-handdrawn-ppt
+    canonical_name: ian-handdrawn-ppt
+    display_name: Ian Handdrawn PPT
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/ian-handdrawn-ppt
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ppt
+      - image
+      - chinese
+    update_policy: git
+    status: active
+
+  - id: obsidian-writer
+    canonical_name: obsidian-writer
+    display_name: Obsidian Writer
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/obsidian-writer
+      exported: true
+    tools:
+      - codex
+    tags:
+      - obsidian
+      - note
+      - writing
+    update_policy: git
+    status: active
+
+  - id: op7418-logo-generator-skill
+    canonical_name: op7418-logo-generator-skill
+    display_name: OP7418 Logo Generator Skill
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/op7418-logo-generator-skill
+      exported: true
+    tools:
+      - codex
+    tags:
+      - logo
+      - design
+      - image
+    update_policy: git
+    status: active
+
+  - id: prompt-master
+    canonical_name: prompt-master
+    display_name: Prompt Master
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/prompt-master
+      exported: true
+    tools:
+      - codex
+    tags:
+      - prompt
+      - optimization
+      - ai
+    update_policy: git
+    status: active
+
+  - id: web-clone
+    canonical_name: web-clone
+    display_name: Web Clone
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/web-clone
+      exported: true
+    tools:
+      - codex
+    tags:
+      - web
+      - clone
+      - frontend
+    update_policy: git
+    status: active
+
+  - id: cancel
+    canonical_name: cancel
+    display_name: Cancel
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/cancel
+      exported: true
+    tools:
+      - codex
+    tags:
+      - omx
+      - mode
+      - cancel
+    update_policy: git
+    status: active
+
+  - id: configure-notifications
+    canonical_name: configure-notifications
+    display_name: Configure Notifications
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/configure-notifications
+      exported: true
+    tools:
+      - codex
+    tags:
+      - notification
+      - omx
+      - config
+    update_policy: git
+    status: active
+
+  - id: doctor
+    canonical_name: doctor
+    display_name: Doctor
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/doctor
+      exported: true
+    tools:
+      - codex
+    tags:
+      - diagnose
+      - omx
+      - setup
+    update_policy: git
+    status: active
+
+  - id: help
+    canonical_name: help
+    display_name: Help
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/help
+      exported: true
+    tools:
+      - codex
+    tags:
+      - help
+      - omx
+      - guide
+    update_policy: git
+    status: active
+
+  - id: hud
+    canonical_name: hud
+    display_name: HUD
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/hud
+      exported: true
+    tools:
+      - codex
+    tags:
+      - hud
+      - statusline
+      - omx
+    update_policy: git
+    status: active
+
+  - id: migrate-to-codex
+    canonical_name: migrate-to-codex
+    display_name: Migrate To Codex
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/migrate-to-codex
+      exported: true
+    tools:
+      - codex
+    tags:
+      - migration
+      - codex
+      - config
+    update_policy: git
+    status: active
+
+  - id: omx-setup
+    canonical_name: omx-setup
+    display_name: OMX Setup
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/omx-setup
+      exported: true
+    tools:
+      - codex
+    tags:
+      - omx
+      - setup
+      - config
+    update_policy: git
+    status: active
+
+  - id: skill
+    canonical_name: skill
+    display_name: Skill
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/skill
+      exported: true
+    tools:
+      - codex
+    tags:
+      - skill
+      - management
+      - local
+    update_policy: git
+    status: active
+
+  - id: vibe-usage
+    canonical_name: vibe-usage
+    display_name: Vibe Usage
+    category: management
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/management/vibe-usage
+      exported: true
+    tools:
+      - codex
+    tags:
+      - usage
+      - tracking
+      - vibe
+    update_policy: git
+    status: active
+
+  - id: vibehood-bridge-setup
+    canonical_name: vibehood-bridge-setup
+    display_name: VibeHood Bridge Setup
+    category: infra
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/infra/vibehood-bridge-setup
+      exported: true
+    tools:
+      - codex
+    tags:
+      - vibehood
+      - bridge
+      - setup
+    update_policy: git
+    status: active
+
+  - id: wave-global-background
+    canonical_name: wave-global-background
+    display_name: Wave Global Background
+    category: infra
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/infra/wave-global-background
+      exported: true
+    tools:
+      - codex
+    tags:
+      - waveterm
+      - background
+      - config
+    update_policy: git
+    status: active
+
+  - id: autopilot
+    canonical_name: autopilot
+    display_name: Autopilot
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/autopilot
+      exported: true
+    tools:
+      - codex
+    tags:
+      - autonomous
+      - agent
+      - execution
+    update_policy: git
+    status: active
+
+  - id: ccpanes-browse-sessions
+    canonical_name: ccpanes-browse-sessions
+    display_name: CCPanes Browse Sessions
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ccpanes-browse-sessions
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ccpanes
+      - agent
+      - workflow
+    update_policy: git
+    status: active
+
+  - id: ccpanes-dispatch-todos
+    canonical_name: ccpanes-dispatch-todos
+    display_name: CCPanes Dispatch Todos
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ccpanes-dispatch-todos
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ccpanes
+      - agent
+      - workflow
+    update_policy: git
+    status: active
+
+  - id: ccpanes-fork-session
+    canonical_name: ccpanes-fork-session
+    display_name: CCPanes Fork Session
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ccpanes-fork-session
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ccpanes
+      - agent
+      - workflow
+    update_policy: git
+    status: active
+
+  - id: ccpanes-launch-task
+    canonical_name: ccpanes-launch-task
+    display_name: CCPanes Launch Task
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ccpanes-launch-task
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ccpanes
+      - agent
+      - workflow
+    update_policy: git
+    status: active
+
+  - id: ccpanes-parallel-run
+    canonical_name: ccpanes-parallel-run
+    display_name: CCPanes Parallel Run
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ccpanes-parallel-run
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ccpanes
+      - agent
+      - workflow
+    update_policy: git
+    status: active
+
+  - id: ccpanes-plantocodex
+    canonical_name: ccpanes-plantocodex
+    display_name: CCPanes Plan To Codex
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ccpanes-plantocodex
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ccpanes
+      - agent
+      - workflow
+    update_policy: git
+    status: active
+
+  - id: ccpanes-spec
+    canonical_name: ccpanes-spec
+    display_name: CCPanes Spec
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ccpanes-spec
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ccpanes
+      - agent
+      - workflow
+    update_policy: git
+    status: active
+
+  - id: ccpanes-workspace
+    canonical_name: ccpanes-workspace
+    display_name: CCPanes Workspace
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ccpanes-workspace
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ccpanes
+      - agent
+      - workflow
+    update_policy: git
+    status: active
+
+  - id: ccpanes-workspace-migrate
+    canonical_name: ccpanes-workspace-migrate
+    display_name: CCPanes Workspace Migrate
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ccpanes-workspace-migrate
+      exported: true
+    tools:
+      - codex
+    tags:
+      - ccpanes
+      - agent
+      - workflow
+    update_policy: git
+    status: active
+
+  - id: paseo
+    canonical_name: paseo
+    display_name: Paseo
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/paseo
+      exported: true
+    tools:
+      - codex
+    tags:
+      - paseo
+      - agent
+      - cli
+    update_policy: git
+    status: active
+
+  - id: paseo-handoff
+    canonical_name: paseo-handoff
+    display_name: Paseo Handoff
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/paseo-handoff
+      exported: true
+    tools:
+      - codex
+    tags:
+      - paseo
+      - handoff
+      - agent
+    update_policy: git
+    status: active
+
+  - id: paseo-loop
+    canonical_name: paseo-loop
+    display_name: Paseo Loop
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/paseo-loop
+      exported: true
+    tools:
+      - codex
+    tags:
+      - paseo
+      - loop
+      - agent
+    update_policy: git
+    status: active
+
+  - id: ralph
+    canonical_name: ralph
+    display_name: Ralph
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ralph
+      exported: true
+    tools:
+      - codex
+    tags:
+      - agent
+      - loop
+      - verification
+    update_policy: git
+    status: active
+
+  - id: ralplan
+    canonical_name: ralplan
+    display_name: Ralplan
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ralplan
+      exported: true
+    tools:
+      - codex
+    tags:
+      - plan
+      - consensus
+      - agent
+    update_policy: git
+    status: active
+
+  - id: team
+    canonical_name: team
+    display_name: Team
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/team
+      exported: true
+    tools:
+      - codex
+    tags:
+      - team
+      - tmux
+      - agents
+    update_policy: git
+    status: active
+
+  - id: trace
+    canonical_name: trace
+    display_name: Trace
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/trace
+      exported: true
+    tools:
+      - codex
+    tags:
+      - trace
+      - timeline
+      - agent
+    update_policy: git
+    status: active
+
+  - id: ultrawork
+    canonical_name: ultrawork
+    display_name: Ultrawork
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/ultrawork
+      exported: true
+    tools:
+      - codex
+    tags:
+      - parallel
+      - execution
+      - agent
+    update_policy: git
+    status: active
+
+  - id: worker
+    canonical_name: worker
+    display_name: Worker
+    category: agent-ops
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/agent-ops/worker
+      exported: true
+    tools:
+      - codex
+    tags:
+      - team
+      - worker
+      - protocol
+    update_policy: git
+    status: active

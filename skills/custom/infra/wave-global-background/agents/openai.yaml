@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wave Global Background"
+  short_description: "Set Wave global backgrounds and opacity."
+  default_prompt: "Use $wave-global-background to set or update the global Wave tab background preset."
+
+policy:
+  allow_implicit_invocation: true

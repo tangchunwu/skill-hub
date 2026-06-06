@@ -70,3 +70,73 @@
 1. 先纳管高频自研 skill
 2. 再纳管跨工具复用 skill
 3. 最后处理仅在 Claude 内部使用的 skill
+
+## Custom / Agent Ops
+
+- `autopilot`
+- `ccpanes-browse-sessions`
+- `ccpanes-dispatch-todos`
+- `ccpanes-fork-session`
+- `ccpanes-launch-task`
+- `ccpanes-parallel-run`
+- `ccpanes-plantocodex`
+- `ccpanes-spec`
+- `ccpanes-workspace`
+- `ccpanes-workspace-migrate`
+- `paseo`
+- `paseo-handoff`
+- `paseo-loop`
+- `ralph`
+- `ralplan`
+- `team`
+- `trace`
+- `ultrawork`
+- `worker`
+
+## Custom / Workflow
+
+- `ai-slop-cleaner`
+- `doko`
+- `note`
+- `plan`
+
+## Custom / Review
+
+- `code-review`
+- `playwright`
+- `security-review`
+- `visual-verdict`
+
+## Custom / Research
+
+- `ask-claude`
+- `ask-gemini`
+- `deep-interview`
+- `persona-distill-catalog`
+- `steve-jobs-skill`
+
+## Custom / Content Extra
+
+- `ecommerce-visual-copywriting-skill`
+- `ian-handdrawn-ppt`
+- `obsidian-writer`
+- `op7418-logo-generator-skill`
+- `prompt-master`
+- `web-clone`
+
+## Custom / Mac Management
+
+- `cancel`
+- `configure-notifications`
+- `doctor`
+- `help`
+- `hud`
+- `migrate-to-codex`
+- `omx-setup`
+- `skill`
+- `vibe-usage`
+
+## Custom / Infra Extra
+
+- `vibehood-bridge-setup`
+- `wave-global-background`

@@ -108,3 +108,48 @@ aliases:
 
   - alias: CloudPC Bridge
     target: openclaw-cloudpc-bridge
+
+  - alias: 做计划
+    target: plan
+
+  - alias: 记笔记
+    target: note
+
+  - alias: 问 Claude
+    target: ask-claude
+
+  - alias: 问 Gemini
+    target: ask-gemini
+
+  - alias: 代码审查
+    target: code-review
+
+  - alias: 安全审查
+    target: security-review
+
+  - alias: 写 Obsidian
+    target: obsidian-writer
+
+  - alias: 浏览器自动化
+    target: playwright
+
+  - alias: CCPanes
+    target: ccpanes-launch-task
+
+  - alias: Paseo
+    target: paseo
+
+  - alias: 提示词优化
+    target: prompt-master
+
+  - alias: 克隆网页
+    target: web-clone
+
+  - alias: 视觉验收
+    target: visual-verdict
+
+  - alias: OMX 诊断
+    target: doctor
+
+  - alias: OMX 设置
+    target: omx-setup

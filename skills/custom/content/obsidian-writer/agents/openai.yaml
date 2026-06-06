@@ -1,0 +1,7 @@
+interface:
+  display_name: "Obsidian Writer"
+  short_description: "写入并整理本地 Obsidian 笔记与复盘文档"
+  default_prompt: "Use $obsidian-writer to save this content into my Obsidian vault with clean frontmatter."
+
+policy:
+  allow_implicit_invocation: true

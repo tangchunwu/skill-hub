@@ -39,6 +39,12 @@ SKIP_SUFFIXES = {
     ".ico",
 }
 
+SKIP_FILENAMES = {
+    "all_skills_with_cn.json",
+}
+
+MAX_SCAN_BYTES = 2_000_000
+
 PLACEHOLDER_WORDS = {
     "your",
     "example",
@@ -120,7 +126,14 @@ def iter_files(path: Path):
 
 
 def should_scan(path: Path) -> bool:
-    return path.suffix.lower() not in SKIP_SUFFIXES
+    if path.name in SKIP_FILENAMES:
+        return False
+    if path.suffix.lower() in SKIP_SUFFIXES:
+        return False
+    try:
+        return path.stat().st_size <= MAX_SCAN_BYTES
+    except OSError:
+        return False
 
 
 def scan_file(path: Path) -> list[Finding]:
@@ -170,7 +183,17 @@ def is_safe_reference(line: str) -> bool:
         "你的",
         "示例",
     )
-    return any(marker in line for marker in safe_markers)
+    if any(marker in line for marker in safe_markers):
+        return True
+    if re.search(r"\b(?:token|secret|password)\s*:\s*(?:list|dict|str|int|bool|Sequence|Iterable)\b", line):
+        return True
+    if re.search(r"\b(?:token|secret|password|pkey)\s*=\s*(?:params|metadata|os\.environ|os\.getenv|self|match|token_match)\b", line):
+        return True
+    if re.search(r"\b(?:password|token|secret)\s*=\s*[A-Za-z_][A-Za-z0-9_]*\b", line):
+        return True
+    if re.search(r"#\s*(?:password|token|secret)\s*:", line, re.IGNORECASE):
+        return True
+    return False
 
 
 def looks_like_placeholder(value: str) -> bool:
