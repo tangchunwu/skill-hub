@@ -6071,3 +6071,543 @@ skills:
       - ai-agent
     update_policy: git
     status: active
+
+  - id: Document-illustrator
+    canonical_name: Document-illustrator
+    display_name: Document Illustrator
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/Document-illustrator
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: Humanizer-zh
+    canonical_name: Humanizer-zh
+    display_name: Humanizer Zh
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/Humanizer-zh
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: article-writing
+    canonical_name: article-writing
+    display_name: Article Writing
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/article-writing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: brand-voice
+    canonical_name: brand-voice
+    display_name: Brand Voice
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/brand-voice
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: content-engine
+    canonical_name: content-engine
+    display_name: Content Engine
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/content-engine
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: crosspost
+    canonical_name: crosspost
+    display_name: Crosspost
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/crosspost
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: market-research
+    canonical_name: market-research
+    display_name: Market Research
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/market-research
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: metaso-paper-matrix
+    canonical_name: metaso-paper-matrix
+    display_name: Metaso Paper Matrix
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/metaso-paper-matrix
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: mindos-zh
+    canonical_name: mindos-zh
+    display_name: Mindos Zh
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/mindos-zh
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: nutrient-document-processing
+    canonical_name: nutrient-document-processing
+    display_name: Nutrient Document Processing
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/nutrient-document-processing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: seo
+    canonical_name: seo
+    display_name: Seo
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/seo
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: visa-doc-translate
+    canonical_name: visa-doc-translate
+    display_name: Visa Doc Translate
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/visa-doc-translate
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: xhs-note-creator
+    canonical_name: xhs-note-creator
+    display_name: Xhs Note Creator
+    category: content
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/content/xhs-note-creator
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - content
+    update_policy: git
+    status: active
+
+  - id: dashboard-builder
+    canonical_name: dashboard-builder
+    display_name: Dashboard Builder
+    category: design
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/design/dashboard-builder
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - design
+    update_policy: git
+    status: active
+
+  - id: frontend-slides
+    canonical_name: frontend-slides
+    display_name: Frontend Slides
+    category: design
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/design/frontend-slides
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - design
+    update_policy: git
+    status: active
+
+  - id: interface-design
+    canonical_name: interface-design
+    display_name: Interface Design
+    category: design
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/design/interface-design
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - design
+    update_policy: git
+    status: active
+
+  - id: liquid-glass-design
+    canonical_name: liquid-glass-design
+    display_name: Liquid Glass Design
+    category: design
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/design/liquid-glass-design
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - design
+    update_policy: git
+    status: active
+
+  - id: ui-demo
+    canonical_name: ui-demo
+    display_name: Ui Demo
+    category: design
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/design/ui-demo
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - design
+    update_policy: git
+    status: active
+
+  - id: ui-ux-pro-max
+    canonical_name: ui-ux-pro-max
+    display_name: Ui Ux Pro Max
+    category: design
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/design/ui-ux-pro-max
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - design
+    update_policy: git
+    status: active
+
+  - id: fal-ai-media
+    canonical_name: fal-ai-media
+    display_name: Fal Ai Media
+    category: media
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/media/fal-ai-media
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - media
+    update_policy: git
+    status: active
+
+  - id: manim-video
+    canonical_name: manim-video
+    display_name: Manim Video
+    category: media
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/media/manim-video
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - media
+    update_policy: git
+    status: active
+
+  - id: remotion-video-creation
+    canonical_name: remotion-video-creation
+    display_name: Remotion Video Creation
+    category: media
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/media/remotion-video-creation
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - media
+    update_policy: git
+    status: active
+
+  - id: video-editing
+    canonical_name: video-editing
+    display_name: Video Editing
+    category: media
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/media/video-editing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - media
+    update_policy: git
+    status: active
+
+  - id: videodb
+    canonical_name: videodb
+    display_name: Videodb
+    category: media
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/media/videodb
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - media
+    update_policy: git
+    status: active
+
+  - id: investor-materials
+    canonical_name: investor-materials
+    display_name: Investor Materials
+    category: product
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/product/investor-materials
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - product
+    update_policy: git
+    status: active
+
+  - id: investor-outreach
+    canonical_name: investor-outreach
+    display_name: Investor Outreach
+    category: product
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/product/investor-outreach
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - product
+    update_policy: git
+    status: active
+
+  - id: product-capability
+    canonical_name: product-capability
+    display_name: Product Capability
+    category: product
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/product/product-capability
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - product
+    update_policy: git
+    status: active

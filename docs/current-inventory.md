@@ -324,6 +324,45 @@
 - `token-budget-advisor`
 - `workspace-surface-audit`
 
+## Custom / Content Agents
+
+- `Document-illustrator`
+- `Humanizer-zh`
+- `article-writing`
+- `brand-voice`
+- `content-engine`
+- `crosspost`
+- `market-research`
+- `metaso-paper-matrix`
+- `mindos-zh`
+- `nutrient-document-processing`
+- `seo`
+- `visa-doc-translate`
+- `xhs-note-creator`
+
+## Custom / Design Agents
+
+- `dashboard-builder`
+- `frontend-slides`
+- `interface-design`
+- `liquid-glass-design`
+- `ui-demo`
+- `ui-ux-pro-max`
+
+## Custom / Media Agents
+
+- `fal-ai-media`
+- `manim-video`
+- `remotion-video-creation`
+- `video-editing`
+- `videodb`
+
+## Custom / Product Agents
+
+- `investor-materials`
+- `investor-outreach`
+- `product-capability`
+
 ## 待脱敏后纳管
 
 - `api-design`
@@ -336,6 +375,7 @@
 - `python-testing`
 - `springboot-security`
 - `impeccable`
+- `ppt-generator`
 - `source-command-kotlin-test`
 
 ## Custom / SecondMe

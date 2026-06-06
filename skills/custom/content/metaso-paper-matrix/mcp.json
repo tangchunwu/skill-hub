@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "metaso": {
+      "type": "http",
+      "url": "https://metaso.cn/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${METASO_API_KEY}"
+      }
+    }
+  }
+}
