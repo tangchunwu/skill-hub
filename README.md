@@ -194,6 +194,21 @@ python3 scripts/sync_repo.py commit --message "Update skills" --push
 python3 scripts/sync_repo.py rollback --to <commit> --push
 ```
 
+### `scripts/scan_skill_secrets.py`
+
+作用：
+
+- 在纳管或提交前扫描疑似硬编码密钥
+- 只输出文件位置和脱敏预览
+- 发现风险时返回非零退出码
+
+示例：
+
+```bash
+python3 scripts/scan_skill_secrets.py --path ~/.codex/skills/example-skill
+python3 scripts/scan_skill_secrets.py --path skills/custom/content
+```
+
 ## 回退机制
 
 ### 1. 目录级回退

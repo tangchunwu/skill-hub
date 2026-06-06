@@ -5,7 +5,21 @@
 1. 修改 `skills/custom/...`
 2. 如需变更名称或入口，同时更新 `registry/skills.yaml`
 3. 如需兼容旧入口，更新 `registry/aliases.yaml`
-4. 导出到目标工具
+4. 运行 `scripts/scan_skill_secrets.py` 扫描新增或修改的 skill
+5. 导出到目标工具
+
+## 自研 skill 纳管前脱敏
+
+1. 先对候选目录运行扫描：
+
+```bash
+python3 scripts/scan_skill_secrets.py --path ~/.codex/skills/example-skill
+```
+
+2. 如果发现疑似密钥，优先改成环境变量读取。
+3. 再把脱敏后的 skill 复制到 `skills/custom/...`。
+4. 更新 registry 和 aliases。
+5. 提交前再扫描一次仓库内的目标目录。
 
 ## 上游 skill 更新
 

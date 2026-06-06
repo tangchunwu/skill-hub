@@ -26,7 +26,14 @@
 - 一切改动先进入 `skill-hub`
 - 再导出到 Codex / Claude / Web
 
-## 5. 清理规则
+## 5. 密钥规则
+
+- 自研 skill 纳管前必须先运行 `scripts/scan_skill_secrets.py`
+- 不把 token、API key、password、private key 写入 `SKILL.md`、脚本、示例 JSON 或文档
+- 需要鉴权的 skill 统一读取环境变量或系统凭据
+- 发现疑似密钥时，先脱敏改造，再进入 registry 和提交流程
+
+## 6. 清理规则
 
 - 重复命名必须收敛到 canonical name
 - 失效 skill 在 registry 中标记，不直接删除历史记录

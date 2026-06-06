@@ -21,6 +21,11 @@
   - 支持从 `codex-local`、`claude-local` 或 `all` 回收
   - 覆盖 `skill-hub` 前自动备份原目录
 
+- `scan_skill_secrets.py`
+  - 扫描待纳管 skill 中的疑似硬编码 token、key、password、private key
+  - 输出位置和脱敏预览，不打印完整密钥
+  - 发现风险时返回非零退出码，适合作为提交前检查
+
 ## 推荐用法
 
 ```bash
@@ -29,6 +34,7 @@ python3 scripts/sync_skills.py --target codex-local --mode symlink --force
 python3 scripts/sync_skills.py --target all --mode symlink --force
 python3 scripts/ingest_local_changes.py --target codex-local --dry-run
 python3 scripts/ingest_local_changes.py --target all
+python3 scripts/scan_skill_secrets.py --path ~/.codex/skills/note --path ~/.codex/skills/plan
 python3 scripts/sync_repo.py commit --message "Update upstream skills" --push
 python3 scripts/sync_repo.py rollback --to <commit> --push
 ```
