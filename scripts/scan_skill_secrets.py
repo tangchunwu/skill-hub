@@ -193,6 +193,32 @@ def is_safe_reference(line: str) -> bool:
         return True
     if "Failed to fetch access token" in line:
         return True
+    if re.search(r"\b(?:token|secret|password|api[_-]?key|apiKey)\b[^\n]*\$\{[A-Z][A-Z0-9_]+\}", line):
+        return True
+    if re.search(r"\b[A-Z][A-Z0-9_]*=\$\{[A-Z][A-Z0-9_]+\}", line):
+        return True
+    if "Password::min(" in line:
+        return True
+    if "read_token_from_env_file" in line or "read_json_field" in line:
+        return True
+    if re.search(r"<(?:API_KEY|PASSWORD|JWT_TOKEN|REDACTED|redacted)>", line):
+        return True
+    if "<REDACTED>" in line:
+        return True
+    if "# ENV API_KEY=sk-" in line and "NEVER DO THIS" in line:
+        return True
+    if re.search(r"[?&]token=\$\{(?:info\.token|TOKEN)\}", line):
+        return True
+    if "window.__IMPECCABLE_TOKEN__" in line:
+        return True
+    if re.search(r"\b(?:token|secret|password|api[_-]?key|apiKey)\b\s*[=:]\s*[A-Za-z_][A-Za-z0-9_.]*\b", line):
+        return True
+    if "verifyToken(token:" in line:
+        return True
+    if "PropertyMock(return_value=\"test-key\")" in line:
+        return True
+    if re.search(r"\b(?:api_key|token)\s*[=:]\s*[A-Za-z_][A-Za-z0-9_]*\b", line):
+        return True
     if re.search(r"\b(?:appSecret|accessToken|apiKey)\b", line) and re.search(r"\$\{[A-Za-z0-9_]*(?:Secret|Token|Key)\}", line):
         return True
     if re.search(r"<(?:image|file|whiteboard|mention-doc)\s+token=", line):

@@ -45,23 +45,8 @@
 
 ### Claude
 
-- `Document-illustrator`
-- `Humanizer-zh`
-- `anthropic-skills-guide`
-- `baoyu-*`
-- `cf-tunnel-deploy`
-- `interface-design`
-- `metaso-paper-matrix`
-- `obsidian-skills`
-- `openclaw-channel-bootstrap`
-- `openclaw-cloudpc-bridge`
-- `ppt-generator`
-- `skill-manager`
-- `skills-updater`
-- `sync-minecontext`
-- `ui-ux-pro-max`
-- `xhs-note-creator`
-- `自更新`
+- `.agents/skills` 中有 `SKILL.md` 的本机 skill 已基本纳管。
+- 剩余未纳管项以动态校验脚本结果为准。
 
 ## 下一步建议
 
@@ -396,7 +381,7 @@
 
 - `evm-token-decimals`
 
-## 待脱敏后纳管
+## 已脱敏后纳管
 
 - `api-design`
 - `backend-patterns`

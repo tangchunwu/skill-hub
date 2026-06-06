@@ -6971,3 +6971,263 @@ skills:
       - ai-agent
     update_policy: git
     status: active
+
+  - id: api-design
+    canonical_name: api-design
+    display_name: Api Design
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/api-design
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: backend-patterns
+    canonical_name: backend-patterns
+    display_name: Backend Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/backend-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: deployment-patterns
+    canonical_name: deployment-patterns
+    display_name: Deployment Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/deployment-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: django-tdd
+    canonical_name: django-tdd
+    display_name: Django Tdd
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/django-tdd
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: docker-patterns
+    canonical_name: docker-patterns
+    display_name: Docker Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/docker-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: kotlin-ktor-patterns
+    canonical_name: kotlin-ktor-patterns
+    display_name: Kotlin Ktor Patterns
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/kotlin-ktor-patterns
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: laravel-security
+    canonical_name: laravel-security
+    display_name: Laravel Security
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/laravel-security
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: python-testing
+    canonical_name: python-testing
+    display_name: Python Testing
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/python-testing
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: springboot-security
+    canonical_name: springboot-security
+    display_name: Springboot Security
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/springboot-security
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: impeccable
+    canonical_name: impeccable
+    display_name: Impeccable
+    category: design
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/design/impeccable
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - design
+    update_policy: git
+    status: active
+
+  - id: openclaw-channel-bootstrap
+    canonical_name: openclaw-channel-bootstrap
+    display_name: Openclaw Channel Bootstrap
+    category: infra
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/infra/openclaw-channel-bootstrap
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - infra
+    update_policy: git
+    status: active
+
+  - id: ppt-generator
+    canonical_name: ppt-generator
+    display_name: Ppt Generator
+    category: media
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/media/ppt-generator
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - media
+    update_policy: git
+    status: active
+
+  - id: source-command-kotlin-test
+    canonical_name: source-command-kotlin-test
+    display_name: Source Command Kotlin Test
+    category: source-command
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/source-command/source-command-kotlin-test
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - source-command
+    update_policy: git
+    status: active

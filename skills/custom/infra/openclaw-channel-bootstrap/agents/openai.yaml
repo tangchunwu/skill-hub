@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw 一键通道配置"
+  short_description: "一键输出 Webhook URL 与 Token 用于网页接入"
+  default_prompt: "使用 $openclaw-channel-bootstrap 按外部网页/本地网页场景给我可复制的 Webhook URL 和 Token。"
