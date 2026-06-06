@@ -363,6 +363,39 @@
 - `investor-outreach`
 - `product-capability`
 
+## Custom / Industry Agents
+
+- `carrier-relationship-management`
+- `connections-optimizer`
+- `customs-trade-compliance`
+- `ecc-tools-cost-audit`
+- `energy-procurement`
+- `healthcare-phi-compliance`
+- `hipaa-compliance`
+- `lead-intelligence`
+- `production-scheduling`
+- `quality-nonconformance`
+
+## Custom / Security Agents
+
+- `defi-amm-security`
+- `security-bounty-hunter`
+
+## Custom / Infra Agents
+
+- `cf-tunnel-deploy`
+- `sync-dayflow`
+- `x-api`
+
+## Custom / Engineering Extra
+
+- `code-tour`
+- `foundation-models-on-device`
+
+## Custom / AI Agent Extra
+
+- `evm-token-decimals`
+
 ## 待脱敏后纳管
 
 - `api-design`
@@ -372,6 +405,7 @@
 - `docker-patterns`
 - `kotlin-ktor-patterns`
 - `laravel-security`
+- `openclaw-channel-bootstrap`
 - `python-testing`
 - `springboot-security`
 - `impeccable`

@@ -6611,3 +6611,363 @@ skills:
       - product
     update_policy: git
     status: active
+
+  - id: carrier-relationship-management
+    canonical_name: carrier-relationship-management
+    display_name: Carrier Relationship Management
+    category: industry
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/industry/carrier-relationship-management
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - industry
+    update_policy: git
+    status: active
+
+  - id: connections-optimizer
+    canonical_name: connections-optimizer
+    display_name: Connections Optimizer
+    category: industry
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/industry/connections-optimizer
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - industry
+    update_policy: git
+    status: active
+
+  - id: customs-trade-compliance
+    canonical_name: customs-trade-compliance
+    display_name: Customs Trade Compliance
+    category: industry
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/industry/customs-trade-compliance
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - industry
+    update_policy: git
+    status: active
+
+  - id: ecc-tools-cost-audit
+    canonical_name: ecc-tools-cost-audit
+    display_name: Ecc Tools Cost Audit
+    category: industry
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/industry/ecc-tools-cost-audit
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - industry
+    update_policy: git
+    status: active
+
+  - id: energy-procurement
+    canonical_name: energy-procurement
+    display_name: Energy Procurement
+    category: industry
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/industry/energy-procurement
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - industry
+    update_policy: git
+    status: active
+
+  - id: healthcare-phi-compliance
+    canonical_name: healthcare-phi-compliance
+    display_name: Healthcare Phi Compliance
+    category: industry
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/industry/healthcare-phi-compliance
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - industry
+    update_policy: git
+    status: active
+
+  - id: hipaa-compliance
+    canonical_name: hipaa-compliance
+    display_name: Hipaa Compliance
+    category: industry
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/industry/hipaa-compliance
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - industry
+    update_policy: git
+    status: active
+
+  - id: lead-intelligence
+    canonical_name: lead-intelligence
+    display_name: Lead Intelligence
+    category: industry
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/industry/lead-intelligence
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - industry
+    update_policy: git
+    status: active
+
+  - id: production-scheduling
+    canonical_name: production-scheduling
+    display_name: Production Scheduling
+    category: industry
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/industry/production-scheduling
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - industry
+    update_policy: git
+    status: active
+
+  - id: quality-nonconformance
+    canonical_name: quality-nonconformance
+    display_name: Quality Nonconformance
+    category: industry
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/industry/quality-nonconformance
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - industry
+    update_policy: git
+    status: active
+
+  - id: defi-amm-security
+    canonical_name: defi-amm-security
+    display_name: Defi Amm Security
+    category: security
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/security/defi-amm-security
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - security
+    update_policy: git
+    status: active
+
+  - id: security-bounty-hunter
+    canonical_name: security-bounty-hunter
+    display_name: Security Bounty Hunter
+    category: security
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/security/security-bounty-hunter
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - security
+    update_policy: git
+    status: active
+
+  - id: cf-tunnel-deploy
+    canonical_name: cf-tunnel-deploy
+    display_name: Cf Tunnel Deploy
+    category: infra
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/infra/cf-tunnel-deploy
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - infra
+    update_policy: git
+    status: active
+
+  - id: sync-dayflow
+    canonical_name: sync-dayflow
+    display_name: Sync Dayflow
+    category: infra
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/infra/sync-dayflow
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - infra
+    update_policy: git
+    status: active
+
+  - id: x-api
+    canonical_name: x-api
+    display_name: X Api
+    category: infra
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/infra/x-api
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - infra
+    update_policy: git
+    status: active
+
+  - id: code-tour
+    canonical_name: code-tour
+    display_name: Code Tour
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/code-tour
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: foundation-models-on-device
+    canonical_name: foundation-models-on-device
+    display_name: Foundation Models On Device
+    category: engineering
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/engineering/foundation-models-on-device
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - engineering
+    update_policy: git
+    status: active
+
+  - id: evm-token-decimals
+    canonical_name: evm-token-decimals
+    display_name: Evm Token Decimals
+    category: ai-agent
+    type: custom
+    source:
+      provider: local
+      owner: tangchunwu
+      repo: skill-hub
+    local:
+      path: skills/custom/ai-agent/evm-token-decimals
+      exported: true
+    tools:
+      - codex
+      - claude
+    tags:
+      - ai-agent
+    update_policy: git
+    status: active
